@@ -12,9 +12,9 @@
   icon: 'fas fa-chart-area'
   url: 'https://t.ratodo.com'
 -
-  type: email
-  icon: 'fas fa-envelope'
-  noblank: true
+  type: foreverblog
+  icon: 'fas fa-blog'
+  url: 'https://www.foreverblog.cn/go.html'
 
 # Uncomment and complete the url below to enable more contact options
 # -

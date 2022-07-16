@@ -34,12 +34,6 @@ url: 'https://ratodo.github.io'
 github:
   username: ratodo             # change to your github username
 
-status:
-  https://t.ratodo.com
-
-telegram:
-  https://t.me/481752162
-
 #twitter:
   #username: twitter_username            # change to your twitter username
 
@@ -50,7 +44,7 @@ social:
   email: i@ratodo.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://t.me/481752162
+    - https://github.com/ratodo
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -114,11 +108,11 @@ comments:
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
-  self_host:
-    enabled:      # boolean, keep empty means false
+  self_host: https://github.com/cotes2020/chirpy-static-assets
+    enabled: 1     # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env:          # [development|production]
+    env: production         # [development|production]
 
 pwa:
   enabled: true   # the option for PWA feature

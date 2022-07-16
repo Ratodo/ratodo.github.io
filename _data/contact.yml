@@ -4,12 +4,11 @@
   type: github
   icon: 'fab fa-github'
 -
-  type: twitter
-  icon: 'fab fa-twitter'
+  type: status
+  icon: 'fab fa-area-chart'
 -
-  type: email
-  icon: 'fas fa-envelope'
-  noblank: true            # open link in current tab
+  type: telegram
+  icon: 'fas fa-telegram'
 -
   type: rss
   icon: 'fas fa-rss'

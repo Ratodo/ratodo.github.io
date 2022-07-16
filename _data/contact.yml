@@ -5,7 +5,7 @@
   icon: 'fab fa-github'
 -
   type: status
-  icon: 'fad fa-chart-area'
+  icon: 'fas fa-chart-area'
   url: 'https://t.ratodo.com'
 -
   type: telegram

@@ -15,7 +15,7 @@
   noblank: true
 
 # Uncomment and complete the url below to enable more contact options
-# -
+ -
    type: mastodon
    icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
    url:  ''                  # Fill with your mastodon account page

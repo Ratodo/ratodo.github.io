@@ -1,8 +1,7 @@
 ---
-layout: friends
 title: Friends
 icon: fas fa-user-friends
-order: 3
+order: 4
 ---
 
 - 夜半观星

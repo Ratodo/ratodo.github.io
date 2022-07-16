@@ -6,15 +6,15 @@
 -
   type: telegram
   icon: 'fab fa-telegram'
-  url: 'https://t.me/ratodo'            # open link in current tab
--
-  type: email
-  icon: 'fas fa-envelope'
-  noblank: true
+  url: 'https://t.me/ratodo'            
 -
   type: status
   icon: 'fas fa-chart-area'
   url: 'https://t.ratodo.com'
+-
+  type: email
+  icon: 'fas fa-envelope'
+  noblank: true
 
 # Uncomment and complete the url below to enable more contact options
 # -

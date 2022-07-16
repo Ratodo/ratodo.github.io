@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: Tags
+title: 文章标签
 icon: fas fa-tag
 order: 2
 ---

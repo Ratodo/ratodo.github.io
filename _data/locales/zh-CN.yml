@@ -35,7 +35,7 @@ copyright:
     link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
-  brief: All Rights Reserved.
+  brief: All Rights Reserved.<div><a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备18060628号</a><a>&nbsp;|&nbsp;</a> <a href="https://icp.gov.moe/?keyword=20221222" target="_blank">萌ICP备20221222号</a> </div>
   verbose: >-
     除非另有说明，本网站上的博客文章均由作者按照知识共享署名 4.0 国际 (CC BY 4.0) 许可协议进行授权。
 

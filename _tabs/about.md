@@ -6,7 +6,7 @@ order: 4
 
 ## 友情链接
 
-<link type="text/css" rel="styleSheet"  href="/sources/friends.css" />
+<link type="text/css" rel="styleSheet"  href="https://raw.githubusercontent.com/solstice23/argon-theme/master/style.css" />
 
 <div class="link mb-2 col-lg-6 col-md-6">
 <div class="card shadow-sm friend-link-container">

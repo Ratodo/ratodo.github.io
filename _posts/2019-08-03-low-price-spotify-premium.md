@@ -4,7 +4,7 @@ title: 低价购买Spotify Premium的方法
 date: 2019-08-03 11:11
 author: Ratodo
 comments: true
-categories: [Spotify Premium, 日常]
+categories: [Spotify Premium]
 ---
 <h2>前言</h2>
 <p>[alert color="red"]目前不建议购买,推荐合租菲律宾的家庭车,上车方法可以自己研究一下。[/alert]</p>

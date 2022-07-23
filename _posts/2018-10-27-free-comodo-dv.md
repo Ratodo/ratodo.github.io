@@ -4,7 +4,7 @@ title: 免费申请COMODO DV证书（3个月）
 date: 2018-10-27 00:59
 author: Ratodo
 comments: true
-categories: [SSL证书, 建站笔记]
+categories: [建站笔记]
 ---
 <h2>前言</h2>
 之前有说到GoGetSSL可以申请免费的COMODO证书，这里详细说明一下申请的流程。

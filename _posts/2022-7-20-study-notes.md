@@ -1,10 +1,11 @@
 ---
-title: 嵌入式工程师学习笔记
+title: 嵌入式学习笔记
 author: Ratodo
 date: 2022-07-20 22:53:00 +0800
 update: 2022-07-22 21:00:00 +0800
 categories: [学习笔记]
 render_with_liquid: false
+pin: true
 ---
 
 ## 2022.7.22

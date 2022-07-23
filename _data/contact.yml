@@ -4,9 +4,9 @@
   type: github
   icon: 'fab fa-github'
 -
-  type: telegram
-  icon: 'fab fa-telegram'
-  url: 'https://t.me/ratodo'            
+  type: shorten
+  icon: 'fas fa-link'
+  url: 'https://uo.do'            
 -
   type: status
   icon: 'fas fa-chart-area'

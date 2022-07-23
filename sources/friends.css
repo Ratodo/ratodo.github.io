@@ -1,0 +1,65 @@
+/*
+
+From https://github.com/solstice23/argon-theme.
+
+*/
+
+
+.friend-links .friend-link-container {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: var(--color-widgets) !important;
+}
+
+.card .card {
+  animation: none;
+}
+
+[class*=shadow] {
+  transition: all .15s ease;
+}
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.friend-links-style1 .friend-link-content {
+  display: inline-block;
+  width: calc(100% - 125px);
+  height: 140px;
+  vertical-align: middle;
+  padding: 10px 15px 10px 15px;
+  white-space: normal;
+}
+
+.friend-links-style1 .friend-link-title {
+  font-weight: bold;
+  font-size: 18px;
+  height: 36px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-primary {
+  color: var(--themecolor) !important;
+}
+
+.friend-links-style1 .friend-link-description {
+  height: 50px;
+  overflow: hidden;
+  line-height: 25px;
+  position: relative;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.friend-links-style1 .friend-link-links {
+  height: 32px;
+  overflow: hidden;
+  font-size: 18px;
+  margin-top: 2px;
+}
+

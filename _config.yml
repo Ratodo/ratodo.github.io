@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
   听，一颗星星落地作响！你别赤脚在这草地上散步， 我的花园到处是星星的碎片。
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://19991222.xyz'
+url: 'https://www.ratodo.com'
 
 github:
   username: ratodo             # change to your github username
@@ -55,7 +55,7 @@ google_site_verification:               # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id: UA-131459099-1  # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine

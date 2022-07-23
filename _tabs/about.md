@@ -121,7 +121,7 @@ order: 4
 
 你可以通过以下方式联系我：
 
-邮件：[i@ratodo.com](mailto：i@ratodo.com)
+邮件：[i@ratodo.com](mailto:i@ratodo.com)
 
 Telegram：[@ratodo](https://t.me/ratodo){:target="_blank"}
 

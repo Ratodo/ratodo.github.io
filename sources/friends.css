@@ -7,8 +7,8 @@ From https://github.com/solstice23/argon-theme.
 
 .friend-links-style1 .friend-link-avatar {
   display: inline-block;
-  width: 125px;
-  height: 140px;
+  width: 30px;
+  height: 30px;
   border-radius: 0 65px 65px 0;
   object-fit: cover;
   pointer-events: none;

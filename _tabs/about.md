@@ -22,7 +22,7 @@ order: 4
 </div>
 <div class="link mb-2 col-lg-6 col-md-6">
 <div class="card shadow-sm friend-link-container">
-<img src="https://sdn.geekzu.org/avatar/ae60929569d79ff0464c51e1aaea4be8?s=300" class="friend-link-avatar bg-gradient-secondary"> <div class="friend-link-content">
+<img src="https://sdn.geekzu.org/avatar/ae60929569d79ff0464c51e1aaea4be8?s=50" class="friend-link-avatar bg-gradient-secondary"> <div class="friend-link-content">
 <div class="friend-link-title title text-primary">
 <a target="_blank" href="https://daidr.me">戴兜的小屋</a>
 </div>
@@ -77,7 +77,7 @@ order: 4
 </div>
 <div class="link mb-2 col-lg-6 col-md-6">
 <div class="card shadow-sm friend-link-container">
-<img src="https://sdn.geekzu.org/avatar/9446cb933832d969416a98983a72ecb1?s=300" class="friend-link-avatar bg-gradient-secondary"> <div class="friend-link-content">
+<img src="https://sdn.geekzu.org/avatar/9446cb933832d969416a98983a72ecb1?s=100" class="friend-link-avatar bg-gradient-secondary"> <div class="friend-link-content">
 <div class="friend-link-title title text-primary">
 <a target="_blank" href="https://jsun969.cn">螓首蛾眉</a>
 </div>
@@ -99,7 +99,7 @@ order: 4
 </div>
 <div class="link mb-2 col-lg-6 col-md-6">
 <div class="card shadow-sm friend-link-container">
-<img src="https://sdn.geekzu.org/avatar/046a41a2ba7eab9e5572a8a185d97b86?s=300" class="friend-link-avatar bg-gradient-secondary"> <div class="friend-link-content">
+<img src="https://sdn.geekzu.org/avatar/046a41a2ba7eab9e5572a8a185d97b86?s=75" class="friend-link-avatar bg-gradient-secondary"> <div class="friend-link-content">
 <div class="friend-link-title title text-primary">
 <a target="_blank" href="https://sanketsu.top">藤海凛诚</a>
 </div>

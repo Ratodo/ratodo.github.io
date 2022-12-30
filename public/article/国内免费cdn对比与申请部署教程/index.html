@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='现在的网络环境下，如果你的网站只是用一个单一的节点的话，可能会导致有些地区的访问速度极慢甚至还会出现打不开的情况。 这对新站点更是一个很大的损'>
+<title>国内免费CDN对比与申请部署教程</title>
+
+<link rel='canonical' href='https://www.ratodo.com/article/%E5%9B%BD%E5%86%85%E5%85%8D%E8%B4%B9cdn%E5%AF%B9%E6%AF%94%E4%B8%8E%E7%94%B3%E8%AF%B7%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/'>
+
+<link rel="stylesheet" href="/scss/style.min.68574f8a12f183a03834a859f3ba8041fd36cf832a0f69e19b7f2b1ffc91609a.css"><meta property='og:title' content='国内免费CDN对比与申请部署教程'>
+<meta property='og:description' content='现在的网络环境下，如果你的网站只是用一个单一的节点的话，可能会导致有些地区的访问速度极慢甚至还会出现打不开的情况。 这对新站点更是一个很大的损'>
+<meta property='og:url' content='https://www.ratodo.com/article/%E5%9B%BD%E5%86%85%E5%85%8D%E8%B4%B9cdn%E5%AF%B9%E6%AF%94%E4%B8%8E%E7%94%B3%E8%AF%B7%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/'>
+<meta property='og:site_name' content='Ratodo&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2018-11-16T21:43:00&#43;08:00'/><meta property='article:modified_time' content='2018-11-16T21:43:00&#43;08:00'/>
+<meta name="twitter:title" content="国内免费CDN对比与申请部署教程">
+<meta name="twitter:description" content="现在的网络环境下，如果你的网站只是用一个单一的节点的话，可能会导致有些地区的访问速度极慢甚至还会出现打不开的情况。 这对新站点更是一个很大的损">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu79b33ed3f78c7e192ae49e277ec0a349_43447_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🤯</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Ratodo&#39;s Blog</a></h1>
+            <h2 class="site-description">My yard is full of shards.</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://www.foreverblog.cn/go.html'
+                        target="_blank"
+                        title="ForeverBlog"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-planet" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M18.816 13.58c2.292 2.138 3.546 4 3.092 4.9c-.745 1.46 -5.783 -.259 -11.255 -3.838c-5.47 -3.579 -9.304 -7.664 -8.56 -9.123c.464 -.91 2.926 -.444 5.803 .805" />
+  <circle cx="12" cy="12" r="7" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/ratodo'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://s.19991222.xyz'
+                        target="_blank"
+                        title="ShrotUrl"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-unlink" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+  <line x1="16" y1="21" x2="16" y2="19" />
+  <line x1="19" y1="16" x2="21" y2="16" />
+  <line x1="3" y1="8" x2="5" y2="8" />
+  <line x1="8" y1="3" x2="8" y2="5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://stat.ratodo.com'
+                        target="_blank"
+                        title="Status"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-line" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <line x1="4" y1="19" x2="20" y2="19" />
+  <polyline points="4 15 8 9 12 11 16 6 20 10" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://telegram.com/ratodo'
+                        target="_blank"
+                        title="Telegram"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-telegram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>文章归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友情链接</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://www.ratodo.com/" selected>中文</option>
+                        
+                            <option value="https://www.ratodo.com/en/" >English</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/" style="background-color: #f68c60; color: #fff;">
+                建站笔记
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/article/%E5%9B%BD%E5%86%85%E5%85%8D%E8%B4%B9cdn%E5%AF%B9%E6%AF%94%E4%B8%8E%E7%94%B3%E8%AF%B7%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/">国内免费CDN对比与申请部署教程</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Nov 16, 2018</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 6 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <!-- raw HTML omitted -->
+<p>现在的网络环境下，如果你的网站只是用一个单一的节点的话，可能会导致有些地区的访问速度极慢甚至还会出现打不开的情况。</p>
+<p>这对新站点更是一个很大的损失，而刚入门的新站长（比如我），资金方面可能会有问题，并且网站流量不是很大。这时候我们就可以借助于国内免费的CDN服务来加速我们的个人站点了。</p>
+<p>（国外CDN加速推荐Cloudflare，之前有介绍过怎么来设置和部署，<!-- raw HTML omitted -->点此查看<!-- raw HTML omitted -->）</p>
+<p><!-- raw HTML omitted -->（长文多图预警）<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<ol>
+<li>百度云加速 2. 又拍云联盟 3. 七牛云加速 4. 加速乐（知道创宇）  5. 景安CDN（快云） 6. 华为云CDN（试用） <!-- raw HTML omitted -->7. 360CDN<!-- raw HTML omitted --></li>
+</ol>
+<p>主要从<!-- raw HTML omitted -->注册难易性<!-- raw HTML omitted -->，<!-- raw HTML omitted -->管理<!-- raw HTML omitted --><!-- raw HTML omitted -->面板功能完整性<!-- raw HTML omitted -->和<!-- raw HTML omitted -->各地网络延迟<!-- raw HTML omitted -->三个方面来进行对比。</p>
+<p>（以下小标题均为超链接，可跳转至相应的CDN提供商官网）</p>
+<p><!-- raw HTML omitted -->（以下若有注册链接均为我的推广链接，不强迫使用，注册地址点击标题的官方网站进入就可以找到入口，但还是希望能支持一下）<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>登陆上你的百度账号后，即可进入接入界面，如果没有实名认证的话，还需要先去控制台进行实名认证，提交资料后半天左右可以通过。</p>
+<p>再接入界面填写你的主域名（例如我的是resdon.cn，得备案，未备案域名验证不会通过），并且选择接入方式，NS方式需要修改域名服务器，CNAME只需要添加一个CNAME解析就可以了。</p>
+<!-- raw HTML omitted -->
+<p>接下来就是添加子域名，主域名是@，www是www，我这里写的是一个测试页。</p>
+<!-- raw HTML omitted -->
+<p>接下来设置DNS记录，需要你去DNS服务商处添加CNAME记录，如果选择的NS接入，则需修改你的域名服务器（较麻烦，不推荐）。</p>
+<!-- raw HTML omitted -->
+<p>下一步是选择版本，我们选择免费版本就可以。</p>
+<p>等待信息同步之后就可以使用百度云加速了。</p>
+<p>另外，百度云加速支持全球加速（国内自有节点，国外与Cloudflare合作），但免费版只支持HTTP加速，即你无法布置SSL证书。</p>
+<p>控制台界面如下图。</p>
+<!-- raw HTML omitted -->
+<p>下面使用<!-- raw HTML omitted -->IPIP.NET<!-- raw HTML omitted -->提供的测试工具来测试一下全球延迟。</p>
+<!-- raw HTML omitted -->
+<p>得益于和Cloudflare的合作，<!-- raw HTML omitted -->海外的延迟极好<!-- raw HTML omitted -->，这点是其他几家免费CDN提供商都没有的优势。</p>
+<p>我用的是阿里云上海的服务器，国内裸连的延迟如下，可做个对比。</p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->使用他们的免费CDN服务需要在网页上添加他们的站点Logo，且需要通过审核<!-- raw HTML omitted -->（每月10GB存储+15G CDN流量）。</p>
+<p>新用户注册有有效期一个月的61元代金券，<!-- raw HTML omitted -->点此注册<!-- raw HTML omitted -->。</p>
+<p>下图为控制台照片。</p>
+<!-- raw HTML omitted -->
+<p>点击右上角<!-- raw HTML omitted -->创建服务<!-- raw HTML omitted -->，进入到创建页面。</p>
+<!-- raw HTML omitted -->
+<p>这儿值得注意的是，<!-- raw HTML omitted -->支持全球加速和HTTPS<!-- raw HTML omitted -->，在这点上比百度云又好了一点点，到DNS服务商处添加CNAME解析就完成设置了。</p>
+<!-- raw HTML omitted -->
+<p>可以设置图片处理，回源管理，HTTPS等，HTTPS里面还可以一键开启TLS1.3，比较实用。</p>
+<p>下面用IPIP.NET来测试一下全球延迟。</p>
+<!-- raw HTML omitted -->
+<p>全球节点<!-- raw HTML omitted -->除了亚洲以外加速效果都不太理想，只能说稍微好了一点点<!-- raw HTML omitted -->。</p>
+<p>看了下，又拍云的国外CDN节点较少，检测出来的仅有德国，香港，新加坡三个海外节点，导致国外延迟不理想。</p>
+<p>还请各位仁者见仁智者见智吧。</p>
+<!-- raw HTML omitted -->
+<p>七牛云<!-- raw HTML omitted -->只支持免费HTTP加速<!-- raw HTML omitted -->（每月免费10GB），<!-- raw HTML omitted -->不支持HTTPS（需付费）<!-- raw HTML omitted -->，支持全球加速。</p>
+<!-- raw HTML omitted -->
+<p>选择<!-- raw HTML omitted -->域名管理-&gt;添加域名<!-- raw HTML omitted -->，开始设置你的CDN。</p>
+<!-- raw HTML omitted -->
+<p>创建成功后，到DNS服务商处添加CNAME解析即可。</p>
+<!-- raw HTML omitted -->
+<p>等待相关信息同步完成后，就可以开始使用了。</p>
+<p>七牛云同样包含了<!-- raw HTML omitted -->回源配置<!-- raw HTML omitted -->，<!-- raw HTML omitted -->缓存配置<!-- raw HTML omitted -->，<!-- raw HTML omitted -->HTTPS配置<!-- raw HTML omitted -->（免费版不可用），<!-- raw HTML omitted -->访问控制<!-- raw HTML omitted -->，<!-- raw HTML omitted -->图片优化<!-- raw HTML omitted -->等功能，还是可以的。</p>
+<!-- raw HTML omitted -->
+<p>接下来来测试全球延迟<!-- raw HTML omitted -->。<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->全球延迟极好！可以和百度云加速相提并论了。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->国内延迟也不错，有明显的加速效果！<!-- raw HTML omitted -->可惜<!-- raw HTML omitted -->不支持HTTPS<!-- raw HTML omitted -->，这算是唯一的缺点了。</p>
+<!-- raw HTML omitted -->
+<p>免费版CDN能提供的有：<!-- raw HTML omitted -->3600GB/月<!-- raw HTML omitted -->，峰值最高5G/小时，72条线路，防盗链，永久在线等（比较适合大流量的站长）。<!-- raw HTML omitted -->不支持HTTPS<!-- raw HTML omitted -->。</p>
+<!-- raw HTML omitted -->
+<p>点击<!-- raw HTML omitted -->添加域名<!-- raw HTML omitted -->，输入<!-- raw HTML omitted -->主域名<!-- raw HTML omitted -->，同样选择<!-- raw HTML omitted -->CNAME接入方式<!-- raw HTML omitted -->，进入下一步。</p>
+<p>下一步就是<!-- raw HTML omitted -->添加子域名<!-- raw HTML omitted -->了，点击添加子域名，输入你要加速的内容，这一部分和百度云加速有些相似。</p>
+<!-- raw HTML omitted -->
+<p>然后继续<!-- raw HTML omitted -->下一步<!-- raw HTML omitted -->。</p>
+<!-- raw HTML omitted -->
+<p>需要<!-- raw HTML omitted -->验证域名<!-- raw HTML omitted -->，方式有两种，<!-- raw HTML omitted -->挂标验证和TXT验证<!-- raw HTML omitted -->，选择最适合自己的就好。</p>
+<p>我在这里选择的是<!-- raw HTML omitted -->TXT验证<!-- raw HTML omitted -->，只需要在域名注册商处添加一个TXT解析即可。</p>
+<p>下为验证成功后的提示。</p>
+<!-- raw HTML omitted -->
+<p>默认模式是<!-- raw HTML omitted -->回源模式<!-- raw HTML omitted -->，需要回到子域名管理处重新选择为<!-- raw HTML omitted -->云端模式<!-- raw HTML omitted -->（自域名管理-&gt;DNS修改-&gt;云端模式）<!-- raw HTML omitted -->。<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>然后根据显示出的CNAME去DNS服务商处添加你的CNAME记录。</p>
+<p>添加完后点击<!-- raw HTML omitted -->检测<!-- raw HTML omitted -->，检测成功即为成功接入。</p>
+<!-- raw HTML omitted -->
+<p>控制面板支持的功能如下，<!-- raw HTML omitted -->没有图片优化<!-- raw HTML omitted -->。</p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->知道创宇加速乐主打的是安全加速功能，提供了其他服务商没有提供的三个防火墙。<!-- raw HTML omitted --></p>
+<p>下面测试全球延迟（官网没标注是否全球加速，我们可以正好来检测一下）</p>
+<!-- raw HTML omitted -->
+<p>很明显，<!-- raw HTML omitted -->不支持全球加速<!-- raw HTML omitted -->，但是国内延迟有较大改善，但海外延迟<!-- raw HTML omitted -->不降反升<!-- raw HTML omitted -->。</p>
+<p>但加速乐的优点是<!-- raw HTML omitted -->安全<!-- raw HTML omitted -->和<!-- raw HTML omitted -->大流量<!-- raw HTML omitted -->。</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>点击<!-- raw HTML omitted -->添加网站<!-- raw HTML omitted -->，即可开始配置CDN。添加完主域名后，会提示你<!-- raw HTML omitted -->在七天内完成解析，否则会被删除<!-- raw HTML omitted -->。</p>
+<p>在<!-- raw HTML omitted -->添加子域名<!-- raw HTML omitted -->中，进行对加速域名的添加，与上文中的百度云加速和加速乐添加类似。</p>
+<p>添加完子域名后，根据显示出来的<!-- raw HTML omitted -->别名<!-- raw HTML omitted -->去在DNS服务商处添加CNAME解析即可。</p>
+<!-- raw HTML omitted -->
+<p>控制台仅支持<!-- raw HTML omitted -->缓存刷新<!-- raw HTML omitted -->与<!-- raw HTML omitted -->智能压缩<!-- raw HTML omitted -->，图片快速加载都需要<!-- raw HTML omitted -->专业版<!-- raw HTML omitted -->支持，在这点上不如其他服务商，并且<!-- raw HTML omitted -->不支持HTTPS<!-- raw HTML omitted -->。</p>
+<!-- raw HTML omitted -->
+<p>下面来测试全球延迟，和加速乐一样，<!-- raw HTML omitted -->没有写出是否支持全球加速<!-- raw HTML omitted -->。</p>
+<!-- raw HTML omitted -->
+<p>检测出来了，支持海外加速，海外用的<!-- raw HTML omitted -->Cloudflare服务器<!-- raw HTML omitted -->，在这点上和百度云加速一样，不得不说，Cloudflare的海外加速很稳。</p>
+<p>至于国内加速的情况，只能说<!-- raw HTML omitted -->加速效果一般<!-- raw HTML omitted -->。</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>实名认证支持三种认证方式，<!-- raw HTML omitted -->银行卡认证<!-- raw HTML omitted -->和<!-- raw HTML omitted -->APP人脸验证<!-- raw HTML omitted -->是实时的。</p>
+<!-- raw HTML omitted -->
+<p>是以订单的形式完成这两个月的试用的，<!-- raw HTML omitted -->不<!-- raw HTML omitted --><!-- raw HTML omitted -->支持全球加速<!-- raw HTML omitted -->（仅为国内流量包，需另购海外加速包），<!-- raw HTML omitted -->支持HTTPS<!-- raw HTML omitted -->，可惜是试用两个月（购买大陆流量包目前的价格是50元/500GB/1年）。</p>
+<!-- raw HTML omitted -->
+<p>点击<!-- raw HTML omitted -->添加域名<!-- raw HTML omitted -->，完成对你域名的CDN加速。</p>
+<p>填写完信息后确定，稍等片刻后会出现CNAME信息，到DNS服务商处添加CNAME解析。</p>
+<!-- raw HTML omitted -->
+<p>毕竟还是个付费产品，该有的功能都有，还是挺齐全的。</p>
+<p>接下来测试全球延迟。</p>
+<!-- raw HTML omitted -->
+<p>国内延迟处于<!-- raw HTML omitted -->比较优秀<!-- raw HTML omitted -->的水平，海外延迟就不用说了，自然崩了。</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->在文本框中输入<!-- raw HTML omitted -->主域名<!-- raw HTML omitted -->，选择CNAME接入，添加域名。<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->接着<!-- raw HTML omitted -->添加子域名<!-- raw HTML omitted -->即可，选择云防护，过程和百度云加速类似。<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->将获得的CNAME添加到DNS服务商处的解析中即可加速生效。<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>CNAME解析已经生效了，但是360这边检测不出来，果然是残废的，无法使用。</p>
+<p>下面的是之前解析成功时的延迟，惨不忍睹，除了列出的这几个，其余节点全部100%丢包。</p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->注册难易性：<!-- raw HTML omitted -->各家都差不多，都需要<!-- raw HTML omitted -->实名认证<!-- raw HTML omitted -->+<!-- raw HTML omitted -->网站备案<!-- raw HTML omitted -->，<!-- raw HTML omitted -->又拍云<!-- raw HTML omitted -->要更为麻烦，要向官方提出申请，并<!-- raw HTML omitted -->在网站上推广又拍云<!-- raw HTML omitted -->。</p>
+<p><!-- raw HTML omitted -->管理<!-- raw HTML omitted --><!-- raw HTML omitted -->面板功能完整性：华为云&gt;又拍云&gt;七牛云=百度云&gt;加速乐&gt;快云<!-- raw HTML omitted --></p>
+<p>下面比较中，最前面的是最好。</p>
+<p><!-- raw HTML omitted -->各地网络延迟（全球）：百度云&gt;快云&gt;七牛云&gt;又拍云（前为支持全球）&gt;华为云&gt;加速乐<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->各地网络延迟（国内）：华为云&gt;又拍云&gt;七牛云&gt;百度云&gt;加速乐&gt;快云<!-- raw HTML omitted --></p>
+<p>（按平均值算，且至经过IPIP.NET一次测试，不严谨）</p>
+<p><!-- raw HTML omitted -->支持HTTPS的服务商：又拍云，华为云<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->支持全球加速的服务商：百度云，快云（基于Cloudflare）；又拍云，七牛云（自有）<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->综合推荐：又拍云&gt;百度云&gt;七牛云&gt;快云&gt;加速乐&gt;华为云<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->（为个人想法，仅供参考；才疏学浅，如有错误，还请指正）<!-- raw HTML omitted --></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/article/hugo-first-article/">
+        
+        
+            <div class="article-image">
+                <img src="/article/hugo-first-article/_huf5d5220b5e0a13aeecf542869ff84930_1613404_cf0b194a74b34ebcb8a617f455a53f60.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 博客架构变更"
+                        data-key="hugo-first-article" 
+                        data-hash="md5-aOvJGH0SPwkXnKP/T0OFTA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">博客架构变更</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/article/another-wildcard/">
+        
+        
+            <div class="article-image">
+                <img src="/article/another-wildcard/_hua79bd120cf0bfcde9154cc729f412dee_1812121_3606137d42eac87f0341b2715f353c2b.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 又一免费通配符证书申请渠道"
+                        data-key="another-wildcard" 
+                        data-hash="md5-c9u7Hyx6EZJPngaTY88AmA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">又一免费通配符证书申请渠道</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/article/%E5%87%A0%E4%B8%AA%E8%B6%85%E4%BD%8E%E4%BB%B7%E8%AF%81%E4%B9%A6/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">几个超低价证书</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/article/%E4%BD%BF%E7%94%A8%E8%85%BE%E8%AE%AF%E4%BA%91%E5%87%BD%E6%95%B0scf%E6%90%AD%E5%BB%BAtcshare/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">使用腾讯云函数SCF搭建TCShare</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="ratodo/Ratodo-Comments"
+    data-repo-id="R_kgDOHqxbVw"
+    data-category="General"
+    data-category-id="DIC_kwDOHqxbV84CQQYY"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2018 - 
+        
+        2022 Ratodo&#39;s Blog
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo&nbsp;&nbsp;</a> 
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> Designed By <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

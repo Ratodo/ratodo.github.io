@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='在这个网盘到处飞的时代，拥有自己的一个私人网盘还是有很大作用的，起码数据算是掌握在自己手中（其实也是在服务商处。 NextCloud由于其出色'>
+<title>快速搭建NextCloud服务端及利用Aria2离线下载</title>
+
+<link rel='canonical' href='https://www.ratodo.com/article/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAnextcloud%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%8F%8A%E5%88%A9%E7%94%A8aria2%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD/'>
+
+<link rel="stylesheet" href="/scss/style.min.68574f8a12f183a03834a859f3ba8041fd36cf832a0f69e19b7f2b1ffc91609a.css"><meta property='og:title' content='快速搭建NextCloud服务端及利用Aria2离线下载'>
+<meta property='og:description' content='在这个网盘到处飞的时代，拥有自己的一个私人网盘还是有很大作用的，起码数据算是掌握在自己手中（其实也是在服务商处。 NextCloud由于其出色'>
+<meta property='og:url' content='https://www.ratodo.com/article/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAnextcloud%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%8F%8A%E5%88%A9%E7%94%A8aria2%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD/'>
+<meta property='og:site_name' content='Ratodo&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2019-08-12T20:18:00&#43;08:00'/><meta property='article:modified_time' content='2019-08-12T20:18:00&#43;08:00'/>
+<meta name="twitter:title" content="快速搭建NextCloud服务端及利用Aria2离线下载">
+<meta name="twitter:description" content="在这个网盘到处飞的时代，拥有自己的一个私人网盘还是有很大作用的，起码数据算是掌握在自己手中（其实也是在服务商处。 NextCloud由于其出色">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu79b33ed3f78c7e192ae49e277ec0a349_43447_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🤯</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Ratodo&#39;s Blog</a></h1>
+            <h2 class="site-description">My yard is full of shards.</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://www.foreverblog.cn/go.html'
+                        target="_blank"
+                        title="ForeverBlog"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-planet" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M18.816 13.58c2.292 2.138 3.546 4 3.092 4.9c-.745 1.46 -5.783 -.259 -11.255 -3.838c-5.47 -3.579 -9.304 -7.664 -8.56 -9.123c.464 -.91 2.926 -.444 5.803 .805" />
+  <circle cx="12" cy="12" r="7" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/ratodo'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://s.19991222.xyz'
+                        target="_blank"
+                        title="ShrotUrl"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-unlink" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+  <line x1="16" y1="21" x2="16" y2="19" />
+  <line x1="19" y1="16" x2="21" y2="16" />
+  <line x1="3" y1="8" x2="5" y2="8" />
+  <line x1="8" y1="3" x2="8" y2="5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://stat.ratodo.com'
+                        target="_blank"
+                        title="Status"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-line" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <line x1="4" y1="19" x2="20" y2="19" />
+  <polyline points="4 15 8 9 12 11 16 6 20 10" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://telegram.com/ratodo'
+                        target="_blank"
+                        title="Telegram"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-telegram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>文章归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友情链接</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://www.ratodo.com/" selected>中文</option>
+                        
+                            <option value="https://www.ratodo.com/en/" >English</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/" style="background-color: #f68c60; color: #fff;">
+                建站笔记
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/article/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAnextcloud%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%8F%8A%E5%88%A9%E7%94%A8aria2%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD/">快速搭建NextCloud服务端及利用Aria2离线下载</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 12, 2019</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <!-- raw HTML omitted -->
+<p>在这个网盘到处飞的时代，拥有自己的一个私人网盘还是有很大作用的，起码数据算是掌握在自己手中（其实也是在服务商处。</p>
+<p>NextCloud由于其出色的跨平台协作能力以及简洁易操作的界面博得了好多人的喜爱，今天介绍一下通过snap的安装方法。</p>
+<p>P.S.本篇文章所使用的服务器为日本的LightSail，操作系统为Ubuntu18.04。</p>
+<!-- raw HTML omitted -->
+<p>稍等片刻后出现如下字样即为安装成功。</p>
+<!-- raw HTML omitted -->
+<p>这个时候就可以在浏览器里输入你服务器的ip地址进行设置了。</p>
+<!-- raw HTML omitted -->
+<p>至此就算是安装好了，是不是很简单哈哈哈哈哈。</p>
+<!-- raw HTML omitted -->
+<p>首先要提前将要绑定的域名解析到你服务器的ip地址，最好等到确定解析成功了再进行接下来的步骤。</p>
+<p>输入以下代码执行申请Let&rsquo;s Encrypt的证书：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>（在这一步的时候我出现了问题，在部署完证书之后我无法访问我的域名和ip地址，这个问题在我卸载重装之后等到了解决。P.S.卸载命令：snap remove nextcloud  重装后需重新执行申请证书命令）</p>
+<p>此时通过域名访问会出现来自不受信任的域，如下图所示：</p>
+<!-- raw HTML omitted -->
+<p>这时候只需要输入下面的命令即可（将domain.com换成自己的域名，如需再加就将1改为2，以此类推）</p>
+<!-- raw HTML omitted -->
+<p>这样就可以正常访问了，到这个时候，你的nextcloud已经可以正常使用了。</p>
+<!-- raw HTML omitted -->
+<p>首先要带年纪右上角头像选择应用，再点击已禁用的应用，将External storage support启用。</p>
+<p>回到服务器上执行安装Aria2：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>接下来修改Aria2的下载存储路径，打开：vi /root/.aria2/aria2.conf，找到：dir=XXX，建议修改为 /var/snap/nextcloud/common/nextcloud/data/xxx/files/Downloads（其中xxx是你在安装时候的用户名）</p>
+<!-- raw HTML omitted -->
+<p>同时也建议将rpc令牌改为自己好记的字符串。</p>
+<!-- raw HTML omitted -->
+<p>修改完毕后运行<!-- raw HTML omitted -->service aria2 restart<!-- raw HTML omitted -->重启一下aria2服务。</p>
+<p>现在我们前往nextcloud的设置界面，点击管理下方的外部存储，添加刚刚的本地的外部存储。</p>
+<!-- raw HTML omitted -->
+<p>这样就可以了，接下来下载一个aria2可视化程序。（以下内容引用自<!-- raw HTML omitted -->挖站否<!-- raw HTML omitted -->）</p>
+<p><!-- raw HTML omitted -->###引用开始###<!-- raw HTML omitted --></p>
+<p>AriaNg项目：</p>
+<!-- raw HTML omitted -->
+<p>点击打开AriaNg 设置 填入RPC别名、地址、协议、请求方法和密钥。RPC地址填写IP或者域名，端口默认的是6800，密钥的话就是你刚刚在配置文件中修改过的。（点击放大）</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>设置完成后，点击Aria2 状态你可以看到Aria2已经连接成功了。没有连接成功的话，检查一下VPS的防火墙有没有开放两个端口，一个是RPC监听端口<!-- raw HTML omitted --> 6800(默认)<!-- raw HTML omitted -->，一个是BT监听端口<!-- raw HTML omitted --> 51413(默认)<!-- raw HTML omitted -->。当然修改了配置文件后记得重启VPS。</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>打开AriaNg面板，你就可以添加httpBT磁力链接开始下载了。</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>由于我们用的是VPS主机下载资源，所以速度基本上可以飞起来了。</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->引用结束###<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->！！记得确认下载位置是不是之前设置的位置！！<!-- raw HTML omitted --></p>
+<p>到这里之后还有一个问题，就是我们下载的文件可能不会在nextcloud中显示，这个时候就要使用nextcloud自带的occ功能来刷新文件夹中的文件了。</p>
+<p>首先在root目录下创建一个可执行文件</p>
+<p><!-- raw HTML omitted -->vi /root/nextcloud.sh<!-- raw HTML omitted --></p>
+<p>在里面输入</p>
+<p><!-- raw HTML omitted -->#!/bin/bash
+sudo nextcloud.occ files:scan &ndash;all<!-- raw HTML omitted --></p>
+<p>之后保存退出</p>
+<p>对其赋予权限，<!-- raw HTML omitted -->chmod 777 nextcloud.sh<!-- raw HTML omitted --></p>
+<p>运行<!-- raw HTML omitted -->crontab -e<!-- raw HTML omitted -->回车</p>
+<p>在下面添加一段代码：</p>
+<p><!-- raw HTML omitted -->*/1 * * * * /root/nextcloud.sh<!-- raw HTML omitted --></p>
+<p>按Ctrl+X退出，Y确定回车即可。上述命令代表每分钟执行一次nextcloud.sh，你也可以改成2分钟30分钟都可以，看你需要。</p>
+<p>所有的下载任务都可以在Aria2可视化界面之中进行，很方便。</p>
+<!-- raw HTML omitted -->
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/article/hugo-first-article/">
+        
+        
+            <div class="article-image">
+                <img src="/article/hugo-first-article/_huf5d5220b5e0a13aeecf542869ff84930_1613404_cf0b194a74b34ebcb8a617f455a53f60.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 博客架构变更"
+                        data-key="hugo-first-article" 
+                        data-hash="md5-aOvJGH0SPwkXnKP/T0OFTA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">博客架构变更</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/article/another-wildcard/">
+        
+        
+            <div class="article-image">
+                <img src="/article/another-wildcard/_hua79bd120cf0bfcde9154cc729f412dee_1812121_3606137d42eac87f0341b2715f353c2b.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 又一免费通配符证书申请渠道"
+                        data-key="another-wildcard" 
+                        data-hash="md5-c9u7Hyx6EZJPngaTY88AmA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">又一免费通配符证书申请渠道</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/article/%E5%87%A0%E4%B8%AA%E8%B6%85%E4%BD%8E%E4%BB%B7%E8%AF%81%E4%B9%A6/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">几个超低价证书</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/article/%E4%BD%BF%E7%94%A8%E8%85%BE%E8%AE%AF%E4%BA%91%E5%87%BD%E6%95%B0scf%E6%90%AD%E5%BB%BAtcshare/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">使用腾讯云函数SCF搭建TCShare</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="ratodo/Ratodo-Comments"
+    data-repo-id="R_kgDOHqxbVw"
+    data-category="General"
+    data-category-id="DIC_kwDOHqxbV84CQQYY"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2018 - 
+        
+        2022 Ratodo&#39;s Blog
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo&nbsp;&nbsp;</a> 
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> Designed By <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

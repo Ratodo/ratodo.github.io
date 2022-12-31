@@ -13,7 +13,7 @@
     align-self: stretch;
     gap: var(--sidebar-element-separation);
     max-width: none;
-    width: 125%;
+    width: 100%;
     position: relative;
 
     --sidebar-avatar-size: 100px;
@@ -68,7 +68,7 @@
 }
 
 .right-sidebar {
-    width: 27%;
+    width: 100%;
     display: none;
     flex-direction: column;
     gap: var(--widget-separation);

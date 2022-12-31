@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Ratodo's Blog</title><link>https://www.ratodo.com/page/</link><description>Recent content in Pages on Ratodo's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 30 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ratodo.com/page/index.xml" rel="self" type="application/rss+xml"/><item><title>文章归档</title><link>https://www.ratodo.com/archives/</link><pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate><guid>https://www.ratodo.com/archives/</guid><description/></item><item><title>关于</title><link>https://www.ratodo.com/about/</link><pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate><guid>https://www.ratodo.com/about/</guid><description>&lt;h2 id="关于我">关于我&lt;/h2>
+&lt;p>我是谁？已经毕业两年的上班狗，一个专业与计算机毫不相干的本科生而已。&lt;/p>
+&lt;p>只是对计算机抱有兴趣，在大学时期尝试搭建起这个网站来。&lt;/p>
+&lt;h2 id="联系我">联系我&lt;/h2>
+&lt;p>你可以通过以下方式联系我：&lt;/p>
+&lt;p>邮件：&lt;a class="link" href="mailto:i@ratodo.com" >i@ratodo.com&lt;/a>&lt;/p>
+&lt;p>Telegram：&lt;a class="link" href="https://t.me/ratodo" target="_blank" rel="noopener"
+>@ratodo&lt;/a>&lt;/p>
+&lt;h2 id="建站历程">建站历程&lt;/h2>
+&lt;p>在 2018 年初的时候就开始建站了，一开始使用的域名也是在那个时候注册的。&lt;/p>
+&lt;p>当时建站是在白嫖的 GCP ，用的也是 Wordpress 博客系统，但是因为遇到了太多当时处理不好的问题，由于自己的三分钟热度，网站没有多久就关闭了。&lt;/p>
+&lt;p>后来，建站的这个想法又慢慢的出现了，先选择的是 DigitalOcean，但是由于服务器都在境外，延迟较高不理想且机子性能不稳定，线路被太多人拿来科学上网，烂的一塌糊涂，后来又换成了 Amazon LightSail，但是操作、延迟、性能等方面不是很好，$5一月的价格虽然很良心但还是放弃了。最后选择了阿里云，操作方便，功能一应俱全，而且国内延迟也很好，唯一麻烦的地方就是国内使用需要备案，最终也是顺利搞好。&lt;/p>
+&lt;p>2020 年初，因为疫情的原因在家闲的发慌，更换到了现在的域名，并且新增接入了备案，弃用了原域名。&lt;/p>
+&lt;p>在工作以后，自己也变得越来越懒，没有上大学时期那么多时间折腾博客，就基本上没怎么更新了，但是现在看来还是一个很值得继续下去的爱好，所以继续用了起来。&lt;/p>
+&lt;p>目前使用的是静态博客系统了，使用Hugo博客系统配上Stack主题，后续会慢慢将优化，争取恢复之前Wordpress的大部分内容。&lt;/p>
+&lt;h2 id="写在最后">写在最后&lt;/h2>
+&lt;p>建站的目的是写一些自己感兴趣的东西，将这里作为自己的树洞，一个自己的小空间，也希望内容能够帮助到你们。&lt;/p>
+&lt;p>建站的过程中也认识了好几位很有意思的朋友，也欢迎大家联系我互相交流。&lt;/p></description></item><item><title>搜索</title><link>https://www.ratodo.com/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ratodo.com/search/</guid><description/></item><item><title>友情链接</title><link>https://www.ratodo.com/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ratodo.com/links/</guid><description>&lt;p>交换友链可以在该页面下留言，也可以发送邮件至&lt;a class="link" href="mailto:i@ratodo.com" >i@ratodo.com&lt;/a>，看到后会及时处理的，友链的目的是交朋友，希望我们都能长期互访互动。&lt;/p>
+&lt;p>虽然只是个小破站，但还是希望您能满足以下几点：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>非免费域名，支持 HTTPS 访问。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>博客类网站，原则上不接受资源站，商业站等。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>不含色情、暴力、政治敏感内容，遵守大陆相关法律法规。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>运行时间超 30 天 ，并且能够提供接近对等的友链展示页。&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

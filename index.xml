@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ratodo's Blog</title><link>https://www.ratodo.com/</link><description>Recent content on Ratodo's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 30 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ratodo.com/index.xml" rel="self" type="application/rss+xml"/><item><title>文章归档</title><link>https://www.ratodo.com/archives/</link><pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate><guid>https://www.ratodo.com/archives/</guid><description/></item><item><title>博客架构变更</title><link>https://www.ratodo.com/article/hugo-first-article/</link><pubDate>Sun, 17 Jul 2022 01:23:00 +0800</pubDate><guid>https://www.ratodo.com/article/hugo-first-article/</guid><description>&lt;img src="https://u.ratodo.com/blog/2022/first-article-0.jpg!full" alt="Featured image of post 博客架构变更" />&lt;p>现在使用的博客引擎是Hugo，托管网站为Github Pages，使用主题为Stack。&lt;/p>
+&lt;p>说实话，最近才开始使用这一类的工具，目前还没有很熟悉，后续的想法主要有这些，写在下面逐一慢慢完成：&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 完善博客功能基本设置&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 编写完成关于页面&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 迁移原网站&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 搭建友链页面，并且加上原来的小伙伴&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 坚持学习与记录&lt;/li>
+&lt;/ul></description></item><item><title>au有锁机官解</title><link>https://www.ratodo.com/article/su-unlock/</link><pubDate>Mon, 20 Apr 2020 17:23:00 +0800</pubDate><guid>https://www.ratodo.com/article/su-unlock/</guid><description>&lt;img src="https://u.ratodo.com/blog/2020/au-unlock-0.jpg!full" alt="Featured image of post au有锁机官解" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>之前买过一个日版有锁的iPhone7，是日本运营商au（by KDDI）的版本，在去年iccid完美解锁还没被封的时候用的风生水起，后来封了完美解锁之后就没再去使用。前两个月iccid解锁又重出江湖了，本来准备用卡贴试一试的，结果因为疫情被困在家，卡贴也被放在了学校，所以也就没去管这件事。今天心血来潮上网又搜了一下官解的东西，没想到就搜到了au的官解方法，简单到只有三个步骤，尝试了一下顺利解锁，在SE二代都发布了的今天，我的这台iPhone7终于变无锁了，不容易啊。&lt;/p>
+&lt;h2 id="解锁过程">解锁过程&lt;/h2>
+&lt;h3 id="1在au官网注册账号">1.在au官网注册账号&lt;/h3>
+&lt;p>登录&lt;a class="link" href="https://www.au.com" target="_blank" rel="noopener"
+>au官网&lt;/a>，点击右上角的&amp;rsquo;ログイン&amp;rsquo;进行登录，在弹出的框中选择&amp;rsquo;au IDでログイン&amp;rsquo;，接着在新页面中选择&amp;rsquo;登録カンタン！　新規ご登録はこちらから&amp;rsquo;，进行注册操作。&lt;/p>
+&lt;p>在新页面中选择&amp;rsquo;au IDの登録&amp;rsquo;，即可注册账号，这些操作用Chrome翻译一下就看的很明白。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/au-unlock-1.png!full"
+loading="lazy"
+alt="Pic1"
+>&lt;/p>
+&lt;p>后面的注册流程就不用多说了，输入邮箱接收验证码，然后输入密码生日性别（无需真实）等信息就注册完成了，很简单。&lt;/p>
+&lt;h3 id="2申请解锁">2.申请解锁&lt;/h3>
+&lt;p>打开&lt;a class="link" href="https://www.au.com/english/support/contract/simcard/unlock/" target="_blank" rel="noopener"
+>这个页面&lt;/a>，下拉选择下图所示中的&amp;rsquo;SIM unlocking procedures'&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/au-unlock-2.png!full"
+loading="lazy"
+alt="Pic2"
+>&lt;/p>
+&lt;p>在后面的页面中选择&amp;rsquo;その他の端末&amp;rsquo;，然后输入手机的IMEI或者MEID号码。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/au-unlock-3.png!full"
+loading="lazy"
+alt="Pic3"
+>&lt;/p>
+&lt;p>官方规定可以官解的要求如下图所示，大意是白名单+购买101天后？具体不好说，可以自己尝试一下，解不了不亏，解了血赚。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/au-unlock-4.png!full"
+loading="lazy"
+alt="Pic4"
+>&lt;/p>
+&lt;p>在输入IMEI号之后，选择你解锁的原因（我选的是在国外的中国使用，选哪个应该都无所谓）和接收邮件的邮箱（就是你注册用的邮箱）。&lt;/p>
+&lt;h3 id="3确认电子邮件">3.确认电子邮件&lt;/h3>
+&lt;p>在看到这个界面后，去你的邮箱查看邮件，点击邮件中的链接就完成解锁了。我在解锁过程中都很顺利，没有遇到障碍。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/au-unlock-5.png!full"
+loading="lazy"
+alt="Pic5"
+>&lt;/p>
+&lt;p>下面是解锁成功后的系统反馈。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/au-unlock-6.png!full"
+loading="lazy"
+alt="Pic6"
+>&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/au-unlock-7.jpg!full"
+loading="lazy"
+alt="Pic7"
+>&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>解锁的整个过程就是这样，很简单，如果手机符合条件的话很快就解好了。手里有au/kddi的有锁机的话可以尝试一下。&lt;/p></description></item><item><title>使用腾讯云函数SCF搭建TCShare</title><link>https://www.ratodo.com/article/scf-tcshare/</link><pubDate>Fri, 03 Apr 2020 15:18:00 +0800</pubDate><guid>https://www.ratodo.com/article/scf-tcshare/</guid><description>&lt;img src="https://u.ratodo.com/blog/2020/scf-tcshare-0.jpg!full" alt="Featured image of post 使用腾讯云函数SCF搭建TCShare" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>之前网站的资源分享用的是基于OneDrive存储的oneindex，但是OneDrive国际版在国内的链接速度真的是不敢恭维，世纪互联版速度是快，可惜能拿到的路子不多，也就作罢。&lt;/p>
+&lt;p>自从TCShare升级到了3.0版本之后，也增加了对和彩云，OneDrive，OneDrive世纪互联版的支持，再加上本就支持的天翼云盘，支持的云盘数量足以让我们从中选择一个适合自己的来使用了。&lt;/p>
+&lt;p>由于是卑微的移动用户，这里我用的就是移动的和彩云，空间足够用来平常分享一些东西，最重要的一点就是不限速，亲测连接速度很快。&lt;/p>
+&lt;h2 id="搭建教程">搭建教程&lt;/h2>
+&lt;p>搭建方法主要就是服务器搭建和腾讯云函数搭建两种方式，关于服务器搭建很简单，弄好文件后composer install就安装完成了，下面主要说一下腾讯云函数SCF的搭建方法。&lt;/p>
+&lt;p>为什么要选择腾讯云函数呢？腾讯云函数每个月有固定的免费额度，再加上API网关的首年每月前1G流量免费，对于个人来说完全是够用了。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/scf-tcshare-1.png!full"
+loading="lazy"
+alt="Pic1"
+>&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/scf-tcshare-2.png!full"
+loading="lazy"
+alt="Pic2"
+>&lt;/p>
+&lt;p>&lt;strong>不过毕竟不是完全免费的东西，使用的时候还是注意一下。&lt;/strong>&lt;/p>
+&lt;h3 id="1下载源码到本地并安装依赖">1.下载源码到本地并安装依赖&lt;/h3>
+&lt;p>[github author=&amp;ldquo;xytoki&amp;rdquo; project=&amp;ldquo;TCShare&amp;rdquo;][/github]&lt;/p>
+&lt;p>原作者由于一些原因停止更新并且删除了代码，仅保留了release，关于安装的说明可查看我的fork页面。&lt;/p>
+&lt;p>[github author=&amp;ldquo;Ratodo&amp;rdquo; project=&amp;ldquo;TCShare&amp;rdquo;][/github]&lt;/p>
+&lt;p>从Github上下载release的源码之后，在本地安装php和composer，php和composer的相关安装包&lt;a class="link" href="https://h.ratodo.com/Sources/TCShare/" target="_blank" rel="noopener"
+>看这里&lt;/a>，当然你也可以在自己的服务器端完成composer依赖安装，然后下载安装完成依赖后的文件夹。&lt;/p>
+&lt;p>先解压php，然后打开composer_setup.exe，手动选择刚刚解压出的php.exe，进行安装。&lt;/p>
+&lt;p>安装完成之后cmd命令进入源码所在文件夹，输入命令：&lt;/p>
+&lt;p>&lt;code>composer install&lt;/code>&lt;/p>
+&lt;h3 id="2创建scf">2.创建SCF&lt;/h3>
+&lt;p>进入&lt;a class="link" href="https://console.cloud.tencent.com/scf/" target="_blank" rel="noopener"
+>腾讯云函数&lt;/a>，在左侧函数服务中新建函数，上方可以选择地域，创建时运行环境选择PHP7.2，方式选择空白函数。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/scf-tcshare-3.png!full"
+loading="lazy"
+alt="Pic3"
+>&lt;/p>
+&lt;p>执行方法为index.main_handler，提交方法为上传本地文件夹，选择刚刚的文件夹提交上去。&lt;/p>
+&lt;p>点开高级设置，输入环境变量，相关设置如下，建议去Github仔细阅读一下说明文档：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">##天翼云和OneDrive部分
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># XS 是前缀
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># | -KEY 是配置种类，可选KEY，APP，SEC
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># | | - -ct是key的ID（类似config.php）
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># | | - | - something是配置名称
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># | | - | - | - - - - value在等号右边
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># XS_KEY_ct_something=value
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> #天翼云配置
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> XS_KEY_ct=ctyun #必填，值为ctyun
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> XS_KEY_ct_FD= #应用文件夹名
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> XS_KEY_ct_AK= #AK
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> XS_KEY_ct_SK= #SK
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> #Onedrive配置
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> XS_KEY_od=onedrive
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> #世纪互联配置
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> XS_KEY_od=onedriveCN
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># 这里APP后面的可以是任意值，一般就123456下去
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> XS_APP_1=/ #挂载路径
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> XS_APP_1_NAME=TCShare #网盘名称
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> XS_APP_1_THEME=mdui #界面主题
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> XS_APP_1_BASE=/ #网盘内路径
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> XS_APP_1_KEY=ct #对应上面Key的ID
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">##和彩云部分
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">XS_KEY_cm=caiyun
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">XS_KEY_cm_TOKEN=&amp;#39;{&amp;#34;cyToken&amp;#34;:&amp;#34;******|*|RCS|******|******&amp;#34;,&amp;#34;encryPhone&amp;#34;:&amp;#34;******&amp;#34;}&amp;#39;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">XS_APP_&amp;amp;lt;id&amp;amp;gt;_NAME=&amp;#34;TCShare 和彩云&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">XS_APP_&amp;amp;lt;id&amp;amp;gt;_THEME=mdui
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">XS_APP_&amp;amp;lt;id&amp;amp;gt;_BASE=/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">XS_APP_&amp;amp;lt;id&amp;amp;gt;_KEY=cm
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">XS_APP_&amp;amp;lt;id&amp;amp;gt;=/caiyun
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>等号左面为填入key，右面填入value中，其中要注意的是，如果是使用和彩云，&lt;strong>TOKEN在这一步先不填，NAME要去掉左右的引号&lt;/strong>。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/scf-tcshare-4.png!full"
+loading="lazy"
+alt="Pic4"
+>&lt;/p>
+&lt;p>创建完成之后再编辑函数，这时候再把TOKEN填进去，&lt;strong>注意TOKEN的value值左右需要去掉单引号&lt;/strong>。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/scf-tcshare-5.png!full"
+loading="lazy"
+alt="Pic5"
+>&lt;/p>
+&lt;p>选择上方的触发方式，添加触发方式，像下面这样设置即可。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/scf-tcshare-6.png!full"
+loading="lazy"
+alt="Pic6"
+>&lt;/p>
+&lt;p>获得访问路径先打开看看有没有问题，没问题即可进入下一步。&lt;/p>
+&lt;h3 id="3设置api网关">3.设置API网关&lt;/h3>
+&lt;p>进入&lt;a class="link" href="https://console.cloud.tencent.com/apigateway" target="_blank" rel="noopener"
+>API网关&lt;/a>，左侧服务，你就会发现已经有了一个服务，单击服务名，进入设置。&lt;/p>
+&lt;p>点击自定义域名，输入你的域名并上传证书，如果不开启https就不需要这一步，其他像下图一样设置。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/scf-tcshare-7.png!full"
+loading="lazy"
+alt="Pic7"
+>&lt;/p>
+&lt;p>添加完成后选择管理API，编辑，路径改为/，勾上启用响应集成，返回类型选择HTML，完成，发布。&lt;/p>
+&lt;h3 id="4返回scf修改环境变量">4.返回SCF修改环境变量&lt;/h3>
+&lt;p>最后一步返回云函数，新增一条环境变量：&lt;/p>
+&lt;p>&lt;code>scf_base=/&lt;/code>&lt;/p>
+&lt;p>这时输入域名即可访问。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/scf-tcshare-8.png!full"
+loading="lazy"
+alt="Pic8"
+>&lt;/p>
+&lt;p>至此SCF搭建TCShare就全部完成了。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>本篇文章是以搭建和彩云为例，搭建天翼云盘同理，其中的AK,SK去Github上搜索一下就能找到，实在不行找我也可以私发给你。&lt;/p>
+&lt;p>个人觉得TCShare总体来说完成度已经很高了，对大佬做出的努力表示感谢！此外，这是我搭建的&lt;a class="link" href="https://h.ratodo.com" target="_blank" rel="noopener"
+>和彩云地址&lt;/a>。&lt;/p>
+&lt;p>再次强调一下，SCF和API网关并非免费产品，使用免费额度的时候要多留心注意。&lt;/p>
+&lt;p>通过这个程序，就可以做到在文章中调用云盘中的音视频等资源了，很是方便。&lt;/p>
+&lt;h3 id="参考文章">参考文章&lt;/h3>
+&lt;p>&lt;a class="link" href="https://www.hostloc.com/thread-651572-1-1.html" target="_blank" rel="noopener"
+>腾讯云SCF搭建TCShare天翼云目录列表&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://xylog.cn/2020/03/03/tcshare.html" target="_blank" rel="noopener"
+>TCShare：云盘目录列表，支持天翼云&lt;/a>&lt;/p></description></item><item><title>使用ZEIT部署源码（Github等）</title><link>https://www.ratodo.com/article/zeit-deploy/</link><pubDate>Tue, 17 Mar 2020 17:45:00 +0800</pubDate><guid>https://www.ratodo.com/article/zeit-deploy/</guid><description>&lt;img src="https://u.ratodo.com/blog/2020/zeit-deploy-0.jpg!full" alt="Featured image of post 使用ZEIT部署源码（Github等）" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>前两天无意间发现了基于&lt;a class="link" href="https://uptimerobot.com/%22" target="_blank" rel="noopener"
+>UptimeRobot&lt;/a>接口制作的客制化网站监测页面，目前已经成功部署了，在惊讶于原作者有一个很棒的&lt;a class="link" href="https://status.org.cn" target="_blank" rel="noopener"
+>域名&lt;/a>的同时，也发现他这个服务是部署在ZEIT上的，试了一下，入门门槛比较低，还是很适合像我这样的小白来操作的。&lt;/p>
+&lt;h2 id="部署过程">部署过程&lt;/h2>
+&lt;p>首先要说明一下，&lt;a class="link" href="https://zeit.co" target="_blank" rel="noopener"
+>ZEIT&lt;/a>是有免费套餐的（当然，也有付费版），且与Github高度契合，配合上Github来用真的是方便到不行，同时，相当于Cloudflare Workers一样，部署成功就意味着部署到了他所有的节点服务器上（虽然对国内访问不太友好），官网介绍他们所使用的服务器有Google Cloud，Azure，Amazon。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/zeit-deploy-1.png!full"
+loading="lazy"
+alt="Pic1"
+>&lt;/p>
+&lt;p>在登录的时候选择Github登录或者其他的方式，经过一些简单的信息填写之后就可以选择你的源码了，像我这种不会编程的小白，通常就是在Github上Fork别人的源代码，然后稍微修改一些信息，就可以拿来用了。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/zeit-deploy-2.png!full"
+loading="lazy"
+alt="Pic2"
+>&lt;/p>
+&lt;p>如果是像我一样使用Github上的源码的话，在Continue之后还需要连接到你的Github账户，这样ZEIT就可以读取你的代码库了。&lt;/p>
+&lt;p>像下面这样，选择你需要编译使用的库。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/zeit-deploy-3.png!full"
+loading="lazy"
+alt="Pic3"
+>&lt;/p>
+&lt;p>选择好你的资源名，根目录和相关编译运行代码，系统就会开始编译，编译完成之后就可以访问ZEIT给你提供的域名来查看相关信息。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/zeit-deploy-4.png!full"
+loading="lazy"
+alt="Pic4"
+>&lt;/p>
+&lt;p>此外，你还可以在Settings-&amp;gt;Domains里面使用CNAME解析的方法来自定义你的域名，也是很方便。设置完成后会自动给你开启HTTPS访问，使用Let&amp;rsquo;s Encrypt的证书，好评。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/zeit-deploy-5.png!full"
+loading="lazy"
+alt="Pic5"
+>&lt;/p>
+&lt;p>之后Github上有源码变动的时候，ZEIT就会自动进行编译工作，稍等片刻你就可以看到最新的编译版本。&lt;/p>
+&lt;p>如果觉得他自身的服务器在国内访问不太好的话，可以去Cloudflare或者百度云加速进行CNAME接入加速，都是一样的道理，这里就不多说了。&lt;/p>
+&lt;p>像我部署的这个就是网站可用性监测服务，界面比原本官方提供的界面要好看一点（个人觉得），具体&lt;a class="link" href="https://stat.ratodo.com" target="_blank" rel="noopener"
+>可以点击看一下&lt;/a>，由于启用了百度云加速服务，所以访问应该不会有太大问题。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/zeit-deploy-6.png!full"
+loading="lazy"
+alt="Pic6"
+>&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>ZEIT说起来操作并不复杂，简单几个步骤就可以完成源码编译和部署，但是只能是静态资源，像HEXO之类的静态博客使用这个服务也是完全没有问题的。具体的可用范围大家就自己去摸索吧。&lt;/p></description></item><item><title>PJAX局部刷新导致Prism代码高亮失效的解决方案</title><link>https://www.ratodo.com/article/pjax-prism-solution/</link><pubDate>Mon, 24 Feb 2020 17:33:00 +0800</pubDate><guid>https://www.ratodo.com/article/pjax-prism-solution/</guid><description>&lt;img src="https://u.ratodo.com/blog/2020/pjax-prism-solution-0.jpg!full" alt="Featured image of post PJAX局部刷新导致Prism代码高亮失效的解决方案" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>开启pjax局部刷新后在进入下一个页面的时候只需载入文章相关文件，大部分文件不需要重新载入，可以大幅降低网站的负载。并且对访问用户来说没有生硬的界面跳转，用户体验来说也很好。但是如果同时开启了prism代码高亮的话，在进入到文章页的时候，prism.js文件不会重载，这样也就导致了文章中的代码高亮失效。&lt;/p>
+&lt;p>我这个主题自带的Prism代码高亮重载功能对我这种情况无效，只好寻找其他方案。&lt;/p>
+&lt;p>对于这种情况网上有好几种解决办法，这里就针对wordpress来说其中的一个最简单的解决办法。&lt;/p>
+&lt;h2 id="修改相关文件">修改相关文件&lt;/h2>
+&lt;p>方法确实很简单，修改一个文件就可以了，对于Asky系列主题来说，修改的文件位置是&lt;code>/wp-content/themes/ASky/js/jquery.pjax.js&lt;/code>，如果不是这类主题的话，建议去搜索看看这个js文件名称。&lt;/p>
+&lt;p>修改位置在Line312行下方，如下图所示。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/pjax-prism-solution-1.png!full"
+loading="lazy"
+alt="Pic1"
+>&lt;/p>
+&lt;p>相关代码如下：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">//Prism Reload
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">if (container.contents.find(&amp;#34;code[class*=&amp;#39;language-&amp;#39;]&amp;#34;).length &amp;amp;gt; 0)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$.getScript(&amp;#34;/wp-content/plugins/ank-prism-for-wp/out/prism-js.min.js&amp;#34;);//Your Prism.js location
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>我这里是使用的Prism插件，所以最后一行的文件位置就是用的插件里使用的prism.js位置。&lt;/p>
+&lt;p>到此就完成了，此外如果使用了CDN的话，缓存可能会久一点，可以手动去CDN控制台刷新这个文件，刷新的时候注意看网站加载的jquery.pjax.js文件后面是否有?ver=x.x.x，有的话记得带上。&lt;/p></description></item><item><title>更改Wordpress站点域名的方案</title><link>https://www.ratodo.com/article/change-wordpress-domain/</link><pubDate>Sun, 16 Feb 2020 16:19:00 +0800</pubDate><guid>https://www.ratodo.com/article/change-wordpress-domain/</guid><description>&lt;img src="https://u.ratodo.com/blog/2020/change-wordpress-domain-0.jpg!full" alt="Featured image of post 更改Wordpress站点域名的方案" />&lt;p>由于CNAME和MX记录的冲突问题的存在，并且一直未能解决，所以决定更换网站的主域名，改用www二级域来作为网站域名。&lt;/p>
+&lt;p>下面简单说一下在解决记录冲突过程中的一些操作和更改wordpress站点域名的方法。&lt;/p>
+&lt;h2 id="cname和mx记录冲突">CNAME和MX记录冲突&lt;/h2>
+&lt;p>在一开始建站的时候，并没有想到以后会用到域名邮箱的情况，也不了解CNAME解析记录和MX解析记录的冲突，所以就将站点搭建在了裸域上。&lt;/p>
+&lt;h3 id="cloudxns解析">CLOUDXNS解析&lt;/h3>
+&lt;p>18年的时候写过一篇使用CLOUDXNS里的LINK记录来解决CNAME和MX记录冲突的问题，使用LINK来指向一个二级域名，在将二级域名CNAME到CDN提供的地址上，从而解决了冲突问题。但是在别家的DNS解析服务商没有这个功能，并且CLOUDXNS已经停止了对个人的免费服务，所以这个方法现在已经失效了。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/change-wordpress-domain-1.png!full"
+loading="lazy"
+alt="Pic1"
+>&lt;/p>
+&lt;h3 id="百度云加速">百度云加速&lt;/h3>
+&lt;p>这个和使用Cloudflare的DNS+CDN服务一样，使用百度云的DNS解析服务，同时使用其CDN服务，添加A解析记录即可实现CDN加速，所以也就不存在CNAME冲突问题，不失为一种很好的解决方案。但是其他CDN服务商基本都没有提供此类服务，并且百度云的国内加速节点数量和质量都很一般，CDN功能也不太全，好处应该也就是这个和免费了吧。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/change-wordpress-domain-2.png!full"
+loading="lazy"
+alt="Pic2"
+>&lt;/p>
+&lt;h3 id="cloudflare解析">Cloudflare解析&lt;/h3>
+&lt;p>Cloudflare在检测到你同时解析CNAME和MX的时候，会启用CNAME Flattening，由Cloudflare来解析CNAME的A值，返回给DNS解析请求。在我使用的过程中，出现了很大的问题，Cloudflare对于全网只会返回一个它所检测的最佳节点，不知道是不是我的个例，在我使用又拍云和阿里云CDN服务的时候都是如此，这样没能达到CDN的效果，所以放弃了这种解决方式。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/change-wordpress-domain-3.png!full"
+loading="lazy"
+alt="Pic3"
+>&lt;/p>
+&lt;h3 id="dnspod解析">DNSPOD解析&lt;/h3>
+&lt;p>DNSPOD支持CNAME和MX记录一起设置，但是在使用过程中也发现了不少问题，比如邮件延迟很大，小概率丢件，影响了使用体验。在开启CNAME加速的情况下，根域名CNAME到二级域名，再用二级域名CNAME到CDN提供的地址上，还是会偶尔出现MX解析记录不生效的问题。&lt;/p>
+&lt;p>关于我提到的问题，大家可以自己去尝试一下，我所使用的邮件系统是Yandex Connect，估计换成腾讯自家的会好很多？还有待验证。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/change-wordpress-domain-4.png!full"
+loading="lazy"
+alt="Pic4"
+>&lt;/p>
+&lt;h2 id="更改wordpress站点url">更改Wordpress站点URL&lt;/h2>
+&lt;p>既然上述几种方案都没解决记录冲突问题，最后就只能更改网站地址了。在更改之前最好先去掉CDN加速，将@和www都以A记录解析到服务器ip上。&lt;/p>
+&lt;p>首先先安装插件&lt;strong>Velvet Blues Update URLs&lt;/strong>，安装完成之后来修改文件。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/change-wordpress-domain-5.png!full"
+loading="lazy"
+alt="Pic5"
+>&lt;/p>
+&lt;p>编辑wp-config.php文件，这个文件就在根目录下，很容易找到，然后在适当的位置插入下面这段字符：&lt;/p>
+&lt;p>&lt;code>define(‘RELOCATE’,true);&lt;/code>&lt;/p>
+&lt;p>保存之后就可以登录wordpress后台来更改你的WordpressURL和站点URL（设置=&amp;gt;常规），更改完成后会让你重新进入后台。&lt;/p>
+&lt;p>重新登陆之后打开Update URLs（工具=&amp;gt;Update URLs），填写你的旧URL和新URL，勾选全部选项，Update URLs NOW。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/change-wordpress-domain-6.png!full"
+loading="lazy"
+alt="Pic6"
+>&lt;/p>
+&lt;p>全部修改完毕后，回到wp-config.php，删除掉刚刚添加的代码，&lt;strong>一定要删除&lt;/strong>！&lt;/p>
+&lt;h3 id="总结">总结&lt;/h3>
+&lt;p>讲一下在这过程中遇到的坑，一个是最近wordpress服务器好像有问题，插件不太好下载，这时候你就可以前往插件的发布地址来下载，然后上传到服务器来安装插件，再一个是我在宝塔面板中开启了防盗链，所以一开始更改域名之后导致我css,js,jpg,png等许多东西404，如果你也有类似的设置的话，记得关掉，或者添加目标域名。&lt;/p></description></item><item><title>域名转移日记</title><link>https://www.ratodo.com/article/domian-transfer/</link><pubDate>Thu, 06 Feb 2020 22:16:00 +0800</pubDate><guid>https://www.ratodo.com/article/domian-transfer/</guid><description>&lt;img src="https://u.ratodo.com/blog/2020/domian-transfer-0.jpg!full" alt="Featured image of post 域名转移日记" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>这次进行域名转移，一来是觉得阿里云的域名隐私有很大的问题，二来就是一直想尝试下国外域名商的服务，三来也是为日后迁移在阿里云的服务器做准备。&lt;/p>
+&lt;p>首先说一下阿里云域名隐私问题，在阿里云whois查询的页面上，清清楚楚写着以下几段话：&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/domian-transfer-1.png!full"
+loading="lazy"
+alt="Pic1"
+>&lt;/p>
+&lt;p>并且我们用户在阿里云的WHOIS上查询的时候，也确实看不到什么东西，就像这样：&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/domian-transfer-2.png!full"
+loading="lazy"
+alt="Pic2"
+>&lt;/p>
+&lt;p>看似贯彻落实了规范，但是只要去国外的任何一个whois查询页面，都可以清清楚楚的查到阿里云所“保护”的个人信息，不知道阿里云的隐私保护保护在哪里了，怕是只局限于自家的whois查询系统吧。&lt;/p>
+&lt;p>.cn域名没有隐私保护服务，并且强制实名，所以显示全部信息也是必然，所以.cn告辞。&lt;/p>
+&lt;p>再来是国外域名注册商的选择，之前我有试过Gandi和Godaddy的域名服务，Gandi的价格偏贵，Godaddy的口碑一向不好。由于域名是.cn，导致了可选择的域名服务商很少很少，且大多数都是国内的注册商。最后是参考了一下哪煮米的推荐，选择了&lt;!-- raw HTML omitted -->dynadot&lt;!-- raw HTML omitted -->这家域名注册商，支持.cn转移，支持中文，支持微信支付宝，很好的满足了我的要求。&lt;/p>
+&lt;p>最后就是为未来迁移服务器做准备了，目前还在使用的是阿里云的学生机，￥10/月，还在接受范围之内，后续无法续费了之后可能会考虑使用国际站的轻量服务器或者是其他VPS商家的国外VPS，备案就只用来做国内CDN加速了。&lt;/p>
+&lt;h2 id="过程">过程&lt;/h2>
+&lt;p>由于域名在阿里云备案的关系，担心迁出域名是否会导致备案出问题，这个我在网上没找到相应的案例，只能等迁移完成之后再看了。&lt;/p>
+&lt;p>第一步：将域名的DNS服务器暂时托管到Cloudflare，防止在迁移过程中解析出现问题（迁移完成后可能也会继续使用Cloudflare的解析服务）。&lt;/p>
+&lt;p>第二步：在dynadot注册账号，暂时填写了美国地址以及美国手机号码。&lt;/p>
+&lt;p>第三步：在阿里云请求转出，在验证完身份之后，带有转移码的邮件就会发到你的邮箱，不知道为什么我的被扔进了垃圾邮件里面。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/domian-transfer-3.png!full"
+loading="lazy"
+alt="Pic3"
+>&lt;/p>
+&lt;p>第四步：在dynadot&lt;!-- raw HTML omitted -->申请转入&lt;!-- raw HTML omitted -->，如下图所示，填写完域名和转移码，域名就会被添加进购物车中。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/domian-transfer-4.png!full"
+loading="lazy"
+alt="Pic4"
+>&lt;/p>
+&lt;p>第五步：付款，支持支付宝和微信，付款转移成功后会增加一年域名有效期，支付宝的付款链接不会自动弹出，需要手动点击。&lt;/p>
+&lt;p>第六步：此时会收到来自阿里云的通知邮件，提醒你域名会在接下来的五到七天内被转出，并且此时在dynadot也已经有了记录，来等待域名转入。&lt;/p>
+&lt;p>第七步：等待域名转入。&lt;/p>
+&lt;p>第八步：在新的域名注册商处使用其DNS服务器或者使用正在使用的第三方DNS解析服务。&lt;/p>
+&lt;p>（2020.2.12 20:06更新）完成转入，从申请转出到转入完成用时6天。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2020/domian-transfer-5.png!full"
+loading="lazy"
+alt="Pic5"
+>&lt;/p>
+&lt;h2 id="题外话">题外话&lt;/h2>
+&lt;p>.cn域名实名认证是CNNIC的要求，与注册商无关，不过在国外注册商注册.com等后缀域名不需要实名认证这一步。Dynadot上表示注册不需要实名认证，但是设置解析之后需要提交实名认证，目前我没有提交，后续如果解析出问题会再更新情况。&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>目前的WHOIS查询结果：&lt;/p>
+&lt;!-- raw HTML omitted --></description></item><item><title>快速搭建NextCloud服务端及利用Aria2离线下载</title><link>https://www.ratodo.com/article/nextcloud-build/</link><pubDate>Mon, 12 Aug 2019 20:18:00 +0800</pubDate><guid>https://www.ratodo.com/article/nextcloud-build/</guid><description>&lt;img src="https://u.ratodo.com/blog/2019/nextcloud-build-0.jpg!full" alt="Featured image of post 快速搭建NextCloud服务端及利用Aria2离线下载" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>网上可能已经有很多搭建NextCloud的教程了，今天这篇教程是我在搭建NextCloud过程中的一些心得，供大家参考一下。&lt;/p>
+&lt;p>在这个网盘到处飞的时代，拥有自己的一个私人网盘还是有很大作用的，起码数据算是掌握在自己手中（其实也是在服务商处。&lt;/p>
+&lt;p>NextCloud由于其出色的跨平台协作能力以及简洁易操作的界面博得了好多人的喜爱，今天介绍一下通过snap的安装方法。&lt;/p>
+&lt;p>P.S.本篇文章所使用的服务器为日本的LightSail，操作系统为Ubuntu18.04。&lt;/p>
+&lt;h2 id="安装过程">安装过程&lt;/h2>
+&lt;p>首先登陆上自己的服务器，获取root权限（有些不必）&lt;/p>
+&lt;p>&lt;code>sudo -i&lt;/code>&lt;/p>
+&lt;p>然后输入以下命令&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo apt-get update
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt-get install
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">snap sudo apt-get install snapd
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo snap install nextcloud
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>直接复制粘贴可能会导致最后一行代码未被执行，建议查看后确定是否需要重新执行。&lt;/p>
+&lt;p>稍等片刻后出现如下字样即为安装成功。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/nextcloud-build-1.jpg!full"
+loading="lazy"
+alt="Pic1"
+>&lt;/p>
+&lt;p>这个时候就可以在浏览器里输入你服务器的ip地址进行设置了。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/nextcloud-build-2.jpg!full"
+loading="lazy"
+alt="Pic2"
+>&lt;/p>
+&lt;p>至此就算是安装好了，是不是很简单哈哈哈哈哈。&lt;/p>
+&lt;h2 id="启用https站点">启用HTTPS站点&lt;/h2>
+&lt;p>刚刚只是安装好了NextCloud服务端，现在要进行域名的设置。&lt;/p>
+&lt;p>首先要提前将要绑定的域名解析到你服务器的ip地址，最好等到确定解析成功了再进行接下来的步骤。&lt;/p>
+&lt;p>输入以下代码执行申请Let&amp;rsquo;s Encrypt的证书：&lt;/p>
+&lt;p>&lt;code>sudo nextcloud.enable-https lets-encrypt&lt;/code>&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/nextcloud-build-3.jpg!full"
+loading="lazy"
+alt="Pic3"
+>&lt;/p>
+&lt;p>（在这一步的时候我出现了问题，在部署完证书之后我无法访问我的域名和ip地址，这个问题在我卸载重装之后等到了解决。P.S.卸载命令：snap remove nextcloud  重装后需重新执行申请证书命令）&lt;/p>
+&lt;p>此时通过域名访问会出现来自不受信任的域，如下图所示：&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/nextcloud-build-4.jpg!full"
+loading="lazy"
+alt="Pic4"
+>&lt;/p>
+&lt;p>这时候只需要输入下面的命令即可（将domain.com换成自己的域名，如需再加就将1改为2，以此类推）&lt;/p>
+&lt;p>&lt;code>sudo nextcloud.occ config:system:set trusted_domains 1 --value=domain.com&lt;/code>&lt;/p>
+&lt;p>这样就可以正常访问了，到这个时候，你的nextcloud已经可以正常使用了。&lt;/p>
+&lt;h2 id="使用aria2进行离线下载">使用Aria2进行离线下载&lt;/h2>
+&lt;p>如果能用服务器来离线下载的话就好多了，视频什么的都还可以在线看，但是不要违反服务器所在国家的相关法规，反正可能会被关闭服务器。&lt;/p>
+&lt;p>首先要带年纪右上角头像选择应用，再点击已禁用的应用，将External storage support启用。&lt;/p>
+&lt;p>回到服务器上执行安装Aria2：&lt;/p>
+&lt;p>&lt;code>wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/aria2.sh &amp;amp;amp;&amp;amp;amp; chmod +x aria2.sh &amp;amp;amp;&amp;amp;amp; bash aria2.sh&lt;/code>&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/nextcloud-build-5.jpg!full"
+loading="lazy"
+alt="Pic5"
+>&lt;/p>
+&lt;p>接下来修改Aria2的下载存储路径，打开：vi /root/.aria2/aria2.conf，找到：dir=XXX，建议修改为 /var/snap/nextcloud/common/nextcloud/data/xxx/files/Downloads（其中xxx是你在安装时候的用户名）&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/nextcloud-build-6.jpg!full"
+loading="lazy"
+alt="Pic6"
+>&lt;/p>
+&lt;p>同时也建议将rpc令牌改为自己好记的字符串。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/nextcloud-build-7.jpg!full"
+loading="lazy"
+alt="Pic7"
+>&lt;/p>
+&lt;p>修改完毕后运行&lt;code>service aria2 restart&lt;/code>重启一下aria2服务。&lt;/p>
+&lt;p>现在我们前往nextcloud的设置界面，点击管理下方的外部存储，添加刚刚的本地的外部存储。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/nextcloud-build-8.jpg!full"
+loading="lazy"
+alt="Pic8"
+>&lt;/p>
+&lt;p>这样就可以了，接下来下载一个aria2可视化程序。（以下内容引用自&lt;a class="link" href="https://wzfou.com/nextcloud-aria2/" target="_blank" rel="noopener"
+>挖站否&lt;/a>）&lt;/p>
+&lt;p>&lt;strong>引用开始&lt;/strong>&lt;/p>
+&lt;p>AriaNg项目：&lt;/p>
+&lt;pre>&lt;code>项目：https://github.com/mayswind/AriaNg
+下载：https://github.com/mayswind/AriaNg/releases/latest
+&lt;/code>&lt;/pre>
+&lt;p>AriaNg是一个前端(HTML+JS静态)控制面板，不需要和 Aria2(后端/服务端)放在一个服务器或者设备中，你可以直接下载到你的本地电脑上解压打开index.html，或者放在服务器访问，服务器只要有Nginx或者Apache就可以了。&lt;/p>
+&lt;p>点击打开AriaNg 设置 填入RPC别名、地址、协议、请求方法和密钥。RPC地址填写IP或者域名，端口默认的是6800，密钥的话就是你刚刚在配置文件中修改过的。（点击放大）&lt;/p>
+&lt;p>&lt;img src="https://wzfou.com/wp-content/uploads/2017/08/Aria2-nextcloud_05.gif"
+loading="lazy"
+alt="Pic9"
+>&lt;/p>
+&lt;p>设置完成后，点击Aria2 状态你可以看到Aria2已经连接成功了。没有连接成功的话，检查一下VPS的防火墙有没有开放两个端口，一个是RPC监听端口&lt;code> 6800(默认)&lt;/code>，一个是BT监听端口&lt;code> 51413(默认)&lt;/code>。当然修改了配置文件后记得重启VPS。&lt;/p>
+&lt;p>&lt;img src="https://wzfou.com/wp-content/uploads/2017/08/Aria2-nextcloud_05_1.gif"
+loading="lazy"
+alt="Pic9"
+>&lt;/p>
+&lt;p>打开AriaNg面板，你就可以添加httpBT磁力链接开始下载了。&lt;/p>
+&lt;p>&lt;img src="https://wzfou.com/wp-content/uploads/2017/08/Aria2-nextcloud_07.gif"
+loading="lazy"
+alt="Pic9"
+>&lt;/p>
+&lt;p>由于我们用的是VPS主机下载资源，所以速度基本上可以飞起来了。&lt;/p>
+&lt;p>&lt;img src="https://wzfou.com/wp-content/uploads/2017/08/Aria2-nextcloud_08.gif"
+loading="lazy"
+alt="Pic9"
+>&lt;/p>
+&lt;p>&lt;strong>引用结束&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>！！记得确认下载位置是不是之前设置的位置！！&lt;/strong>&lt;/p>
+&lt;p>到这里之后还有一个问题，就是我们下载的文件可能不会在nextcloud中显示，这个时候就要使用nextcloud自带的occ功能来刷新文件夹中的文件了。&lt;/p>
+&lt;p>首先在root目录下创建一个可执行文件&lt;/p>
+&lt;p>&lt;code>vi /root/nextcloud.sh&lt;/code>&lt;/p>
+&lt;p>在里面输入&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#!/bin/bash
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>sudo nextcloud.occ files:scan --all
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>之后保存退出&lt;/p>
+&lt;p>对其赋予权限，&lt;code>chmod 777 nextcloud.sh&lt;/code>&lt;/p>
+&lt;p>运行&lt;code>crontab -e&lt;/code>回车&lt;/p>
+&lt;p>在下面添加一段代码：&lt;/p>
+&lt;p>&lt;code>*/1 * * * * /root/nextcloud.sh&lt;/code>&lt;/p>
+&lt;p>按Ctrl+X退出，Y确定回车即可。上述命令代表每分钟执行一次nextcloud.sh，你也可以改成2分钟30分钟都可以，看你需要。&lt;/p>
+&lt;p>所有的下载任务都可以在Aria2可视化界面之中进行，很方便。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>建议不要在日本的服务器上BT下载，很容易挂掉~&lt;/p></description></item><item><title>低价购买Spotify Premium的方法</title><link>https://www.ratodo.com/article/low-price-spotify-premium/</link><pubDate>Sat, 03 Aug 2019 11:11:00 +0800</pubDate><guid>https://www.ratodo.com/article/low-price-spotify-premium/</guid><description>&lt;img src="https://u.ratodo.com/blog/2019/low-price-spotify-premium-0.jpg!full" alt="Featured image of post 低价购买Spotify Premium的方法" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;blockquote>
+&lt;p>目前该网站已下架相关项目，该方法已过期，建议上车组队的菲律宾家庭组或其余地区家庭组。&lt;/p>
+&lt;/blockquote>
+&lt;p>Spotify这个软件在国内可能少有人使用，但是这个软件在全球知名度是非常高的，在国内的网络环境下，基本可以实现直接连接(?)，实用性尚可。登录的时候需要**，后续的听歌什么的可以正常使用（这个就要取决于你自己的网络环境了）。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/low-price-spotify-premium-1.png!full"
+loading="lazy"
+alt="Pic1"
+>&lt;/p>
+&lt;p>Spotify Free Account的局限性非常大，比如切歌次数有限制，有广告，每14天需要使用所在地区的IP登录一次等等，在手机端甚至无法手动选择歌曲和后台播放，而Premium Account就完全没有这些限制。与之对应的也是官方Spotify Premium的价格偏高，不在大多数人的接受范围内，但是Spotify清爽的界面，较全的曲库和超强的推荐算法还是有很大的吸引力。&lt;/p>
+&lt;p>了解过一些的人应该都知道Spotify有家庭组计划，六个人平摊家庭组的费用，港区的话大概一个月在15人民币左右，目前淘宝上售卖的家庭组会员方案就是这种，价格和官方相差无几。还有一种更为便宜的Spotify会员购买方法，下面简单说一下。&lt;/p>
+&lt;p>这个方案不是来自Spotify官方，来自俄罗斯网站&lt;a class="link" href="https://www.plati.market/itm/spotify-premium-all-countries-6m-warranty-discount/2302955?ai=888458" target="_blank" rel="noopener"
+>plati.market&lt;/a>，现在是六个月保障，费用25人民币左右，稳定性不错，我个人目前用下来还没出现什么问题。&lt;/p>
+&lt;h3 id="个人使用情况及一些反馈">个人使用情况及一些反馈&lt;/h3>
+&lt;p>2020-10-14||据评论区反映，目前上车性价比过低，且选择家庭组存在一定难度，个人不建议上车。&lt;/p>
+&lt;p>2020-8-15||支付宝付款已恢复。&lt;/p>
+&lt;p>2020-5-11||购买前可以先询问卖家自己心仪的几个地区是否有货再决定是否购买。&lt;/p>
+&lt;p>2020-4-4||网站上的Spotify会员现在价格在$3左右，后续在$3以内的波动就不再说明了，大家看看实时价格做决定就好~另外还从卖家那里拿到了5%的折扣，使用下面的优惠码即可。购买后如果出现任何问题，请务必第一时间联系卖家，卖家会帮忙处理的！&lt;/p>
+&lt;p>2020-3-21||目前支付宝付款的价格在18元左右，根据评论区小伙伴反馈，建议使用加入地所在国家的ip来接受邀请。此外，出现问题请第一时间想着去联系卖家，卖家会处理绝大部分问题（中俄有时差，耐心等待一下），也可以来这边留言讨论一下。&lt;/p>
+&lt;p>2020-3-8||到目前为止，使用一切正常，没有更换过家庭组，也没有掉过Premium资格，可以安全上车。&lt;/p>
+&lt;p>2019-11-9||现在我已经稳定使用四个月，没有任何问题，也没有更换家庭组。现在此网站的Spotify会员都只提供&lt;strong>六个月保障&lt;/strong>，值不值得购买大家自己斟酌一下~我觉得就算只是六个月也还是有点值的，而且到了六个月也不一定会掉。&lt;/p>
+&lt;p>2019-7-13||正式上车日期。&lt;/p>
+&lt;h3 id="优惠信息">优惠信息&lt;/h3>
+&lt;p>同一邮箱累计购买金额超过5$，后续购买折扣比例为5%；累计超过10$，折扣比例为6%；累计超过15$，折扣比例为10%；在购买时使用此优惠会向邮箱发送验证码进行验证。
+每次购买后会提供给你一个优惠码（5% OFF），大家可以留着自己后面使用。
+&lt;strong>32E8BFD2A29241F1&lt;/strong> 这是我从卖家那里争取到的&lt;strong>5%的优惠码&lt;/strong>，优惠码有效期至2020.06.04。&lt;/p>
+&lt;h2 id="购买过程">购买过程&lt;/h2>
+&lt;p>首先是打开这个购物网站&lt;a class="link" href="https://www.plati.market/itm/spotify-premium-all-countries-6m-warranty-discount/2302955?ai=888458" target="_blank" rel="noopener"
+>plati.market&lt;/a>打开可能较慢，耐心等待一下），进入之后详情页是这样的，这时候就可以购买&lt;strong>Spotify Premium&lt;/strong>了。以下截图价格仅供参考，相关价格会有一定幅度的波动，请以购买框显示的价格或付款时显示的价格为准。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/low-price-spotify-premium-2.png!full"
+loading="lazy"
+alt="Pic2"
+>&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/low-price-spotify-premium-3.png!full"
+loading="lazy"
+alt="Pic3"
+>&lt;/p>
+&lt;p>点进去之后就出现了购买界面，这个网站支付方式支持&lt;strong>支付宝(Alipay)&lt;strong>和&lt;/strong>银联付款(Unionpay)&lt;/strong>，对国人来说还是比较友好，推荐使用支付宝，不推荐使用需要输入大量信息的方式进行购买。&lt;/p>
+&lt;p>&lt;strong>先别急着付款&lt;/strong>，阅读一下卖家的描述和注意事项，我大概翻译了一下，大家可以参考一下。&lt;/p>
+&lt;p>购买前请务必阅读！&lt;/p>
+&lt;p>1.这是Spotify Premium&lt;strong>家庭邀请&lt;/strong>。&lt;/p>
+&lt;p>2.在Spotify官方网站上的月订阅价格为10美元，您每月支付的费用少于此金额。&lt;/p>
+&lt;p>3.以这种方式，每个帐户每年只能升级&lt;strong>两次&lt;/strong>，因此当不能更换家庭组的时候，您将不得不使用新的账户来加入。&lt;/p>
+&lt;p>4.保修期内更换是&lt;strong>无限&lt;/strong>的。&lt;/p>
+&lt;p>5.您&lt;strong>可能&lt;/strong>需要每个月向我发送消息，以便我可以使用新代码更新您的帐户。&lt;/p>
+&lt;p>6.购买即表示接受列出的所有条款和条件。&lt;/p>
+&lt;p>好，了解完之后觉得没问题的话就可以进行付款了，付款之前的&lt;strong>账户邮箱一定要谨慎填写&lt;/strong>，以后所有有关的信息都会发到这个邮箱上，推荐使用Gmail，Outlook之类的邮箱。&lt;/p>
+&lt;p>据我个人经验，可以和卖家在线交流来告知你想要的地区，&lt;a class="link" href="http://www.plati.market/itm/spotify-premium-all-countries-6m-warranty-discount/2302955?ai=888458" target="_blank" rel="noopener"
+>商品详情页&lt;/a>。我询问到可以选择的地区有：**香港，**&lt;strong>中国台湾&lt;/strong>，&lt;strong>美国&lt;/strong>，&lt;strong>新加坡&lt;/strong>，加拿大，德国等。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/low-price-spotify-premium-4.png!full"
+loading="lazy"
+alt="Pic4"
+>&lt;/p>
+&lt;p>建议先和卖家交流，询问现在有哪些地区可以选择，双方确定好后，进行下单，也可以直接点击下方的BUY进行购买，会自动调至plati.market网站进行付款，&lt;strong>记得使用优惠码&lt;/strong>。&lt;/p>
+&lt;p>付款完成后会被重定向到digiseller.market的网站上，以后和卖家的交流都会在这个网站上。每次卖家有回复或者留言，你都会收到邮件提醒，所以不用担心不知道何时卖家会回信息。据目前来看，卖家态度比较好，只要是在线状态回复也比较快，还是那句话，时差问题(-5小时)建议下午到晚上操作，这样也能节省不少等待的时间。&lt;/p>
+&lt;p>卖家还在里面准备了一个小工具“BONUS”，这就要你自己去悟它的用处了，这里就不多说了。&lt;/p>
+&lt;p>购买后的注意事项：&lt;/p>
+&lt;p>感谢您的购买，您的订单将在8小时内发送，但大多小于2小时&lt;/p>
+&lt;p>收到Spotify邀请后，请执行以下步骤：&lt;/p>
+&lt;p>1-首先登录您的Spotify帐户&lt;/p>
+&lt;p>2-单击发送的链接&lt;/p>
+&lt;p>3-完整的地址（请输入我们的地址）&lt;/p>
+&lt;p>4-单击确认按钮如果您的国家/地区邀请不可用，请更改您的国家/地区方法（更改国家/地区之前，请务必使用此国家/地区的ip）登录到Spotify网站上的帐户页面。在左侧面板中选择“Account overview”。点击“Edit Profile”点击“ Country” 然后选择要将帐户移至的国家/地区。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/low-price-spotify-premium-5.png!full"
+loading="lazy"
+alt="Pic5"
+>&lt;/p>
+&lt;p>下面是点击链接加入的一些过程，大家参考一下，建议使用地区所在的ip进行加入操作。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/low-price-spotify-premium-6.png!full"
+loading="lazy"
+alt="Pic6"
+>&lt;/p>
+&lt;p>此处选择手动输入地址，将卖家发送的地址输入进去，确定即可。Family Mix是家庭组成员的常听歌曲合集(?)，可加可不加。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/low-price-spotify-premium-7.png!full"
+loading="lazy"
+alt="Pic7"
+>&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2019/low-price-spotify-premium-8.png!full"
+loading="lazy"
+alt="Pic8"
+>&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>现在平台上的Spotify会员价格都从$3起跳，这是平台的要求（卖家是这么和我解释的），好在卖家的服务态度相当好，出现问题一定要联系卖家。
+这次又算是一个新的尝试开始，当然价格几乎是之前买的1/2，一个月不亏，两个月血赚，这次可以要求美区家庭组也是出乎我意料，有点像淘宝自选区域了。&lt;/p>
+&lt;p>说实话，我这次购买这个会员还是抱着试试看的心理去买的，毕竟要是去加入家庭组的话，淘宝上日区一个月的家庭组就得20一个月，给我的区是加拿大的，不过曲库听起来差别不大，也是在接受范围内。毕竟才20块钱，能用一个月就算是很赚了（因为才用了不到一个月的缘故，稳定性我暂时还不知道，不过据贴吧有人讲过年用到现在都没出现什么问题。&lt;/p>
+&lt;p>希望我这个也可以用很长时间吧！具体需不需要还是取决于你，后续我会说一下这个高级账户的使用情况的。&lt;/p>
+&lt;p>另外，只做推荐和力所能及的解答，在购买前请先想好其中可能存在的风险。&lt;strong>大家也可以在购买过程中及购买后的使用情况在下方交流一下，毕竟我一个人的经验保证不了太多东西。&lt;/strong>&lt;/p>
+&lt;p>最后，欢迎大家在评论里分享自己的歌单呀！&lt;/p></description></item><item><title>新年快乐~</title><link>https://www.ratodo.com/article/happy-new-year-2019/</link><pubDate>Tue, 05 Feb 2019 00:18:00 +0800</pubDate><guid>https://www.ratodo.com/article/happy-new-year-2019/</guid><description>&lt;p>转眼间就到新的一年了~时间真的是过的飞快！&lt;/p>
+&lt;p>好像也没什么好说的，那就祝大家猪年牛逼吧！&lt;/p></description></item><item><title>Wordpress全局字体修改详细教程</title><link>https://www.ratodo.com/article/wordpress-fonts-change/</link><pubDate>Thu, 13 Dec 2018 23:52:00 +0800</pubDate><guid>https://www.ratodo.com/article/wordpress-fonts-change/</guid><description>&lt;img src="https://u.ratodo.com/blog/2018/wordpress-fonts-change-0.jpg!full" alt="Featured image of post Wordpress全局字体修改详细教程" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>有很多时候，Wordpress的字体不能让我们满意，这个时候我们就可以通过一些方法来修改主题的默认字体，来达到我们想要的效果。&lt;/p>
+&lt;p>下面介绍的更换字体主要分为两种，第一种是直接调用系统的字体，来替换原来主题的默认字体；第二种则是使用自己的字体文件，来实现字体的替换。&lt;/p>
+&lt;h2 id="第一种直接调用">第一种：直接调用&lt;/h2>
+&lt;p>这种方法通过修改CSS文件就可以实现，有些主题自带了自定义CSS样式的设置，Wordpress也提供了这一入口（后台管理-&amp;gt;外观-&amp;gt;自定义CSS），这时候我们就可以直接在里面填上：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="o">*&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">not&lt;/span>&lt;span class="o">([&lt;/span>&lt;span class="nt">class&lt;/span>&lt;span class="o">*=&lt;/span>&lt;span class="s2">&amp;#34;icon&amp;#34;&lt;/span>&lt;span class="o">])&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">not&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">font-family&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">Segoe&lt;/span> &lt;span class="n">UI&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;Microsoft Yahei&amp;#34;&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/wordpress-fonts-change-1.jpg!full"
+loading="lazy"
+alt="Pic1"
+>&lt;/p>
+&lt;p>上面的例子就是将字体全局优先替换成&lt;strong>Segio UI&lt;/strong>，其次替换成&lt;strong>微软雅黑&lt;/strong>，下面列举几个比较适合阅读的字体，供大家替换，替换代码中的&lt;strong>Segio UI&lt;/strong>和&lt;strong>Microsoft YaHei&lt;/strong>即可。&lt;/p>
+&lt;p>&lt;strong>宋体（SimSun）&lt;/strong>，微软雅黑（&amp;ldquo;Microsoft Yahei&amp;rdquo;），&lt;strong>华文黑体（STHeiti）&lt;/strong>
+&lt;strong>冬青黑体（ Hiragino Sans GB ）&lt;/strong>，苹方（PingFang SC）
+Arial，Times New Roman，Droid Sans&lt;/p>
+&lt;h2 id="第二种私有字体调用">第二种：私有字体调用&lt;/h2>
+&lt;p>既然是私有字体，那就一定无法从公共库中直接选择，必定要上传到某个服务端来进行加载。&lt;/p>
+&lt;p>这里可以选择：&lt;strong>1.上传至网站服务器 2.上传至Github（推荐）3.上传至私有云存储进行调用&lt;/strong>&lt;/p>
+&lt;p>在这之前需要先做一项准备工作，我们手上的字体文件通常只有一种格式，而为了满足不同浏览器的需要，我们需要将其扩展为五种格式，分别为**.ttf .eot .woff .woff2 .svg**&lt;/p>
+&lt;p>百度搜索就可以找到在线转换的工具，例如这个：&lt;a class="link" href="https://www.fontke.com/tool/convfont/" target="_blank" rel="noopener"
+>在线字体转换&lt;/a>&lt;/p>
+&lt;h3 id="1上传至网站服务器">1.上传至网站服务器&lt;/h3>
+&lt;p>这种方法面临这一种风险，中文字体库体积通常很大，比如我现在正在使用的思源黑体，一个ttf文件就有8M多，再加上国内服务器的小带宽，肯定导致网站加载时间大大加长。&lt;/p>
+&lt;p>将你前面准备好的五种字体格式全部上传到网站的一个文件夹内，比如我放在/fonts文件夹内，且统一命名，比如siyuan.ttf,siyuan.svg等等。
+在自定义CSS样式中输入下列代码：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">@&lt;/span>&lt;span class="k">font-face&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;随便一个名称，需要和下面的保持对应&amp;#39;&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">src&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;../fonts/yourfont.eot&amp;#39;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">src&lt;/span>&lt;span class="o">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;../fonts/yourfont.eot&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;embedded-opentype&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;../fonts/yourfont.woff2&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;woff2&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;../fonts/yourfont.woff&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;woff&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;../fonts/yourfont.ttf&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;truetype&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;../fonts/yourfont.svg&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;svg&amp;#39;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-weight&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">normal&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-style&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">normal&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">*&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">not&lt;/span>&lt;span class="o">([&lt;/span>&lt;span class="nt">class&lt;/span>&lt;span class="o">*=&lt;/span>&lt;span class="s2">&amp;#34;icon&amp;#34;&lt;/span>&lt;span class="o">])&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">not&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">font-family&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;与上面起的名字的对应&amp;#34;&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/wordpress-fonts-change-2.jpg!full"
+loading="lazy"
+alt="Pic2"
+>&lt;/p>
+&lt;p>个人不是很推荐这种方法，建议还是使用下面的云存储托管。&lt;/p>
+&lt;h3 id="2上传至github使用免费的jsdelivr-cdn加速">2.上传至Github使用免费的jsDelivr CDN加速&lt;/h3>
+&lt;p>&lt;a class="link" href="https://www.jsdelivr.com" target="_blank" rel="noopener"
+>jsDelivr&lt;/a>如何如何好用这边就不多说了，&lt;a class="link" href="https://github.com" target="_blank" rel="noopener"
+>Github&lt;/a>怎么使用这边也不多说了，大体方法就是将你的字体文件上传至Github自己的仓库中，然后使用jsDelivr提供的加速服务来调用，方便好用还不要钱。&lt;/p>
+&lt;p>jsDelivr调用格式 &lt;a class="link" href="https://cdn.jsdelivr.net/gh/Github" target="_blank" rel="noopener"
+>https://cdn.jsdelivr.net/gh/Github&lt;/a>用户名/仓库名/具体路径&lt;/p>
+&lt;p>svg文件大多会超过20M，评论区小伙伴提醒jsDelivr调用文件超过20M会报错，可以使用其他方式加载svg，不过留在上面也没什么问题，因为正常是不会使用到的。&lt;/p>
+&lt;p>附上几个字体的调用链接（托管于Github，使用jsDelivr加速服务）&lt;/p>
+&lt;h4 id="adobecleanhansc">AdobeCleanHanSC&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">@&lt;/span>&lt;span class="k">font-face&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;AdobeCleanHanSC&amp;#39;&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">src&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AdobeCleanHanSC/AdobeCleanHanSC.eot&amp;#39;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">src&lt;/span>&lt;span class="o">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AdobeCleanHanSC/AdobeCleanHanSC.eot&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;embedded-opentype&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AdobeCleanHanSC/AdobeCleanHanSC.woff2&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;woff2&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AdobeCleanHanSC/AdobeCleanHanSC.woff&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;woff&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AdobeCleanHanSC/AdobeCleanHanSC.ttf&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;truetype&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AdobeCleanHanSC/AdobeCleanHanSC.svg&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;svg&amp;#39;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-weight&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">400&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-style&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">normal&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-display&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">swap&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">*&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">not&lt;/span>&lt;span class="o">([&lt;/span>&lt;span class="nt">class&lt;/span>&lt;span class="o">*=&lt;/span>&lt;span class="s2">&amp;#34;icon&amp;#34;&lt;/span>&lt;span class="o">])&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">not&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">font-family&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;AdobeCleanHanSC&amp;#34;&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="思源黑体">思源黑体&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">@&lt;/span>&lt;span class="k">font-face&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;siyuan&amp;#39;&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">src&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/siyuan/siyuan.eot&amp;#39;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">src&lt;/span>&lt;span class="o">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/siyuan/siyuan.eot&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;embedded-opentype&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/siyuan/siyuan.woff2&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;woff2&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/siyuan/siyuan.woff&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;woff&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/siyuan/siyuan.ttf&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;truetype&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/siyuan/siyuan.svg&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;svg&amp;#39;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-weight&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">400&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-style&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">normal&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-display&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">swap&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">*&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">not&lt;/span>&lt;span class="o">([&lt;/span>&lt;span class="nt">class&lt;/span>&lt;span class="o">*=&lt;/span>&lt;span class="s2">&amp;#34;icon&amp;#34;&lt;/span>&lt;span class="o">])&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">not&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">font-family&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;siyuan&amp;#34;&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="筑紫a丸">筑紫A丸&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">@&lt;/span>&lt;span class="k">font-face&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;AWan&amp;#39;&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">src&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">url&lt;/span> &lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AWan/Awan.eot&amp;#39;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">src&lt;/span>&lt;span class="o">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AWan/AWan.eot&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;embedded-opentype&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AWan/AWan.woff2&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;woff2&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AWan/AWan.woff&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;woff&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AWan/AWan.ttf&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;truetype&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AWan/AWan.svg&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;svg&amp;#39;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-weight&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">normal&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-style&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">normal&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-display&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">swap&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">*&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">not&lt;/span> &lt;span class="o">([&lt;/span>&lt;span class="nt">class&lt;/span>&lt;span class="o">*=&lt;/span>&lt;span class="s2">&amp;#34;icon&amp;#34;&lt;/span>&lt;span class="o">])&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">not&lt;/span> &lt;span class="o">(&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">font-family&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;AWan&amp;#34;&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="3上传至云存储进行调用">3.上传至云存储进行调用&lt;/h3>
+&lt;p>在个人服务器上存储字体文件的话，服务器需要在加载网页，图片等的同时等待加载字体，但如果使用云存储调用的话就可以在很大程度上解决网站加载慢的问题。&lt;/p>
+&lt;p>云服务的话有很多选择，如果你的网站还没有开启HTTPS的话，可以去使用&lt;strong>免费的七牛云存储&lt;/strong>，如果开启了HTTPS的话可以申请使用&lt;strong>免费的又拍云存储或者使用收费的阿里云OSS&lt;/strong>。下面以阿里云OSS和又拍云云存储为例进行演示。&lt;/p>
+&lt;p>首先，将你先前准备好的四种格式的字体文件上传至你的云存储中，云储存需设置为&lt;strong>公有读&lt;/strong>权限。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/wordpress-fonts-change-3.jpg!full"
+loading="lazy"
+alt="Pic3"
+>&lt;/p>
+&lt;p>然后进入&lt;strong>基础设置-&amp;gt;防盗链&lt;/strong>，将你的域名添加进去，允许空Refer，记得加http(s)://，如下图所示。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/wordpress-fonts-change-4.jpg!full"
+loading="lazy"
+alt="Pic4"
+>&lt;/p>
+&lt;p>接着设置&lt;strong>跨域规则&lt;/strong>，将你的域名添加进去，同样需要加http(s)://，&lt;strong>允许Headers处填写&lt;/strong>*&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/wordpress-fonts-change-5.jpg!full"
+loading="lazy"
+alt="Pic5"
+>&lt;/p>
+&lt;p>接下来就可以去自定义CSS了，填写以下代码：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">@&lt;/span>&lt;span class="k">font-face&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;随便一个名称，需要和下面的保持对应&amp;#39;&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">src&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;../fonts/yourfont.eot&amp;#39;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">src&lt;/span>&lt;span class="o">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;../fonts/yourfont.eot&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;embedded-opentype&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;../fonts/yourfont.woff2&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;woff2&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;../fonts/yourfont.woff&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;woff&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;../fonts/yourfont.ttf&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;truetype&amp;#39;&lt;/span>&lt;span class="o">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">url&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;../fonts/yourfont.svg&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="nt">format&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s1">&amp;#39;svg&amp;#39;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-weight&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">normal&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font-style&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">normal&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">*&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">not&lt;/span>&lt;span class="o">([&lt;/span>&lt;span class="nt">class&lt;/span>&lt;span class="o">*=&lt;/span>&lt;span class="s2">&amp;#34;icon&amp;#34;&lt;/span>&lt;span class="o">])&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">not&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">font-family&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;与上面起的名字的对应&amp;#34;&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>至于又拍云，在云存储配置完成后使用FTP工具登陆云存储空间并进行上传后，即可使用文件的URL地址来进行使用。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/wordpress-fonts-change-6.jpg!full"
+loading="lazy"
+alt="Pic6"
+>&lt;/p>
+&lt;p>又拍云的云存储连接方式可参考官方文档：&lt;a class="link" href="https://console.upyun.com/services/file/filemanageguide/" target="_blank" rel="noopener"
+>文件管理指南 - 又拍云存储&lt;/a>&lt;/p>
+&lt;p>这样就大功告成啦，登上你的网站看看吧！&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>由于目前还没有很全的字体库，所以第二种方法应该使用的比较多的。&lt;/p>
+&lt;p>如果你的服务器带宽足够大，或者开了什么加速的话，将字体文件放在网站服务器上绝对是没什么问题的，但没有的话还是建议使用一个云存储来帮助你的网站加载那庞大的字体库。&lt;/p>
+&lt;p>P.S.有个程序叫字蛛，可以缩小网站字体体积，不过我试了一下没有成功，大家也可以照这个方向去研究研究。
+字蛛只支持静态html压缩字体体积，所以Wordpress无法直接使用。&lt;/p></description></item><item><title>关于</title><link>https://www.ratodo.com/about/</link><pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate><guid>https://www.ratodo.com/about/</guid><description>&lt;h2 id="关于我">关于我&lt;/h2>
+&lt;p>我是谁？已经毕业两年的上班狗，一个专业与计算机毫不相干的本科生而已。&lt;/p>
+&lt;p>只是对计算机抱有兴趣，在大学时期尝试搭建起这个网站来。&lt;/p>
+&lt;h2 id="联系我">联系我&lt;/h2>
+&lt;p>你可以通过以下方式联系我：&lt;/p>
+&lt;p>邮件：&lt;a class="link" href="mailto:i@ratodo.com" >i@ratodo.com&lt;/a>&lt;/p>
+&lt;p>Telegram：&lt;a class="link" href="https://t.me/ratodo" target="_blank" rel="noopener"
+>@ratodo&lt;/a>&lt;/p>
+&lt;h2 id="建站历程">建站历程&lt;/h2>
+&lt;p>在 2018 年初的时候就开始建站了，一开始使用的域名也是在那个时候注册的。&lt;/p>
+&lt;p>当时建站是在白嫖的 GCP ，用的也是 Wordpress 博客系统，但是因为遇到了太多当时处理不好的问题，由于自己的三分钟热度，网站没有多久就关闭了。&lt;/p>
+&lt;p>后来，建站的这个想法又慢慢的出现了，先选择的是 DigitalOcean，但是由于服务器都在境外，延迟较高不理想且机子性能不稳定，线路被太多人拿来科学上网，烂的一塌糊涂，后来又换成了 Amazon LightSail，但是操作、延迟、性能等方面不是很好，$5一月的价格虽然很良心但还是放弃了。最后选择了阿里云，操作方便，功能一应俱全，而且国内延迟也很好，唯一麻烦的地方就是国内使用需要备案，最终也是顺利搞好。&lt;/p>
+&lt;p>2020 年初，因为疫情的原因在家闲的发慌，更换到了现在的域名，并且新增接入了备案，弃用了原域名。&lt;/p>
+&lt;p>在工作以后，自己也变得越来越懒，没有上大学时期那么多时间折腾博客，就基本上没怎么更新了，但是现在看来还是一个很值得继续下去的爱好，所以继续用了起来。&lt;/p>
+&lt;p>目前使用的是静态博客系统了，使用Hugo博客系统配上Stack主题，后续会慢慢将优化，争取恢复之前Wordpress的大部分内容。&lt;/p>
+&lt;h2 id="写在最后">写在最后&lt;/h2>
+&lt;p>建站的目的是写一些自己感兴趣的东西，将这里作为自己的树洞，一个自己的小空间，也希望内容能够帮助到你们。&lt;/p>
+&lt;p>建站的过程中也认识了好几位很有意思的朋友，也欢迎大家联系我互相交流。&lt;/p></description></item><item><title>国内免费CDN对比与申请部署教程</title><link>https://www.ratodo.com/article/free-cdn/</link><pubDate>Fri, 16 Nov 2018 21:43:00 +0800</pubDate><guid>https://www.ratodo.com/article/free-cdn/</guid><description>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-0.jpg!full" alt="Featured image of post 国内免费CDN对比与申请部署教程" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>本篇文章针对的是国内CDN，&lt;strong>需要完成备案才能够使用&lt;/strong>。&lt;/p>
+&lt;p>现在的网络环境下，如果你的网站只是用一个单一的节点的话，可能会导致有些地区的访问速度极慢甚至还会出现打不开的情况。&lt;/p>
+&lt;p>这对新站点更是一个很大的损失，而刚入门的新站长（比如我），资金方面可能会有问题，并且网站流量不是很大。这时候我们就可以借助于国内免费的CDN服务来加速我们的个人站点了。&lt;/p>
+&lt;p>（国外CDN加速推荐Cloudflare，之前有介绍过怎么来设置和部署，&lt;a class="link" href="https://www.ratodo.com/article/cloudflare-cdn-ssl.html" target="_blank" rel="noopener"
+>点此查看&lt;/a>）&lt;/p>
+&lt;p>&lt;strong>（长文多图预警）&lt;/strong>&lt;/p>
+&lt;h2 id="免费cdn">免费CDN&lt;/h2>
+&lt;p>本文章中进行测试的&lt;strong>免费CDN&lt;/strong>有：&lt;/p>
+&lt;ol>
+&lt;li>百度云加速 2. 又拍云联盟 3. 七牛云加速 4. 加速乐（知道创宇） 5. 景安CDN（快云） 6. 华为云CDN（试用） 7. 360CDN&lt;/li>
+&lt;/ol>
+&lt;p>主要从&lt;strong>注册难易性&lt;/strong>，&lt;strong>管理****面板功能完整性&lt;/strong>和&lt;strong>各地网络延迟&lt;/strong>三个方面来进行对比。&lt;/p>
+&lt;p>（以下小标题均为超链接，可跳转至相应的CDN提供商官网）&lt;/p>
+&lt;p>&lt;strong>（以下若有注册链接均为我的推广链接，不强迫使用，注册地址点击标题的官方网站进入就可以找到入口，但还是希望能支持一下）&lt;/strong>&lt;/p>
+&lt;h3 id="百度云加速httpssubaiducomproductcdnhtml">&lt;a class="link" href="https://su.baidu.com/product/cdn.html" target="_blank" rel="noopener"
+>百度云加速&lt;/a>&lt;/h3>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-1.jpg!full"
+loading="lazy"
+alt="Pic1"
+>&lt;/p>
+&lt;p>登陆上你的百度账号后，即可进入接入界面，如果没有实名认证的话，还需要先去控制台进行实名认证，提交资料后半天左右可以通过。&lt;/p>
+&lt;p>再接入界面填写你的主域名（例如我的是resdon.cn，得备案，未备案域名验证不会通过），并且选择接入方式，NS方式需要修改域名服务器，CNAME只需要添加一个CNAME解析就可以了。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-2.jpg!full"
+loading="lazy"
+alt="Pic2"
+>&lt;/p>
+&lt;p>接下来就是添加子域名，主域名是@，www是www，我这里写的是一个测试页。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-3.jpg!full"
+loading="lazy"
+alt="Pic3"
+>&lt;/p>
+&lt;p>接下来设置DNS记录，需要你去DNS服务商处添加CNAME记录，如果选择的NS接入，则需修改你的域名服务器（较麻烦，不推荐）。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-4.jpg!full"
+loading="lazy"
+alt="Pic4"
+>&lt;/p>
+&lt;p>下一步是选择版本，我们选择免费版本就可以。&lt;/p>
+&lt;p>等待信息同步之后就可以使用百度云加速了。&lt;/p>
+&lt;p>另外，百度云加速支持全球加速（国内自有节点，国外与Cloudflare合作），但免费版只支持HTTP加速，即你无法布置SSL证书。&lt;/p>
+&lt;p>控制台界面如下图。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-5.jpg!full"
+loading="lazy"
+alt="Pic5"
+>&lt;/p>
+&lt;p>下面使用&lt;a class="link" href="https://www.ipip.net" target="_blank" rel="noopener"
+>IPIP.NET&lt;/a>提供的测试工具来测试一下全球延迟。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-6.jpg!full"
+loading="lazy"
+alt="Pic6"
+>&lt;/p>
+&lt;p>得益于和Cloudflare的合作，&lt;strong>海外的延迟极好&lt;/strong>，这点是其他几家免费CDN提供商都没有的优势。&lt;/p>
+&lt;p>我用的是阿里云上海的服务器，国内裸连的延迟如下，可做个对比。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-7.jpg!full"
+loading="lazy"
+alt="Pic7"
+>&lt;/p>
+&lt;h3 id="又拍云联盟httpsconsoleupyuncomregisterinviteh1qjlm2px本站正在使用">&lt;a class="link" href="https://console.upyun.com/register/?invite=H1QjLM2pX" target="_blank" rel="noopener"
+>又拍云联盟&lt;/a>（本站正在使用）&lt;/h3>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-8.jpg!full"
+loading="lazy"
+alt="Pic8"
+>&lt;/p>
+&lt;p>&lt;strong>使用他们的免费CDN服务需要在网页上添加他们的站点Logo，且需要通过审核&lt;/strong>（每月10GB存储+15G CDN流量）。&lt;/p>
+&lt;p>新用户注册有有效期一个月的61元代金券，&lt;a class="link" href="https://console.upyun.com/register/?invite=H1QjLM2pX" target="_blank" rel="noopener"
+>点此注册&lt;/a>。&lt;/p>
+&lt;p>下图为控制台照片。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-9.jpg!full"
+loading="lazy"
+alt="Pic9"
+>&lt;/p>
+&lt;p>点击右上角&lt;strong>创建服务&lt;/strong>，进入到创建页面。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-10.jpg!full"
+loading="lazy"
+alt="Pic10"
+>&lt;/p>
+&lt;p>这儿值得注意的是，&lt;strong>支持全球加速和HTTPS&lt;/strong>，在这点上比百度云又好了一点点，到DNS服务商处添加CNAME解析就完成设置了。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-11.jpg!full"
+loading="lazy"
+alt="Pic11"
+>&lt;/p>
+&lt;p>可以设置图片处理，回源管理，HTTPS等，HTTPS里面还可以一键开启TLS1.3，比较实用。&lt;/p>
+&lt;p>下面用IPIP.NET来测试一下全球延迟。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-12.jpg!full"
+loading="lazy"
+alt="Pic12"
+>&lt;/p>
+&lt;p>全球节点&lt;strong>除了亚洲以外加速效果都不太理想，只能说稍微好了一点点&lt;/strong>。&lt;/p>
+&lt;p>看了下，又拍云的国外CDN节点较少，检测出来的仅有德国，香港，新加坡三个海外节点，导致国外延迟不理想。&lt;/p>
+&lt;p>还请各位仁者见仁智者见智吧。&lt;/p>
+&lt;h2 id="七牛云加速httpsportalqiniucomsignupcode1hmfwbuy04382">&lt;a class="link" href="https://portal.qiniu.com/signup?code=1hmfwbuy04382" target="_blank" rel="noopener"
+>七牛云加速&lt;/a>&lt;/h2>
+&lt;p>七牛云加速同样需要&lt;strong>实名认证&lt;/strong>，&lt;a class="link" href="https://portal.qiniu.com/signup?code=1hmfwbuy04382" target="_blank" rel="noopener"
+>点此注册&lt;/a>。&lt;/p>
+&lt;p>七牛云&lt;strong>只支持免费HTTP加速&lt;/strong>（每月免费10GB），&lt;strong>不支持HTTPS（需付费）&lt;/strong>，支持全球加速。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-13.jpg!full"
+loading="lazy"
+alt="Pic13"
+>&lt;/p>
+&lt;p>选择&lt;strong>域名管理-&amp;gt;添加域名&lt;/strong>，开始设置你的CDN。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-14.jpg!full"
+loading="lazy"
+alt="Pic14"
+>&lt;/p>
+&lt;p>创建成功后，到DNS服务商处添加CNAME解析即可。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-15.jpg!full"
+loading="lazy"
+alt="Pic15"
+>&lt;/p>
+&lt;p>等待相关信息同步完成后，就可以开始使用了。&lt;/p>
+&lt;p>七牛云同样包含了&lt;strong>回源配置&lt;/strong>，&lt;strong>缓存配置&lt;/strong>，&lt;strong>HTTPS配置&lt;/strong>（免费版不可用），&lt;strong>访问控制&lt;/strong>，&lt;strong>图片优化&lt;/strong>等功能，还是可以的。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-16.jpg!full"
+loading="lazy"
+alt="Pic16"
+>&lt;/p>
+&lt;p>接下来来测试全球延迟&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-17.jpg!full"
+loading="lazy"
+alt="Pic17"
+>&lt;/p>
+&lt;p>&lt;strong>全球延迟极好！可以和百度云加速相提并论了。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>国内延迟也不错，有明显的加速效果！&lt;strong>可惜&lt;/strong>不支持HTTPS&lt;/strong>，这算是唯一的缺点了。&lt;/p>
+&lt;h3 id="加速乐知道创宇httpsssoyunaqcomcasloginservicehttps3a2f2fwwwyunaqcom2faccounts2flogin2f3fnext3d252fsite252flist252f">&lt;a class="link" href="https://sso.yunaq.com/cas/login?service=https%3A%2F%2Fwww.yunaq.com%2Faccounts%2Flogin%2F%3Fnext%3D%252Fsite%252Flist%252F" target="_blank" rel="noopener"
+>加速乐（知道创宇）&lt;/a>&lt;/h3>
+&lt;p>创建账号后，需要&lt;strong>实名认证&lt;/strong>，&lt;strong>验证手机&lt;/strong>，&lt;strong>邮箱&lt;/strong>，缺一不可。&lt;/p>
+&lt;p>免费版CDN能提供的有：&lt;strong>3600GB/月&lt;/strong>，峰值最高5G/小时，72条线路，防盗链，永久在线等（比较适合大流量的站长）。&lt;strong>不支持HTTPS&lt;/strong>。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-18.jpg!full"
+loading="lazy"
+alt="Pic18"
+>&lt;/p>
+&lt;p>点击&lt;strong>添加域名&lt;/strong>，输入&lt;strong>主域名&lt;/strong>，同样选择&lt;strong>CNAME接入方式&lt;/strong>，进入下一步。&lt;/p>
+&lt;p>下一步就是&lt;strong>添加子域名&lt;/strong>了，点击添加子域名，输入你要加速的内容，这一部分和百度云加速有些相似。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-19.jpg!full"
+loading="lazy"
+alt="Pic19"
+>&lt;/p>
+&lt;p>然后继续&lt;strong>下一步&lt;/strong>。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-20.jpg!full"
+loading="lazy"
+alt="Pic20"
+>&lt;/p>
+&lt;p>需要&lt;strong>验证域名&lt;/strong>，方式有两种，&lt;strong>挂标验证和TXT验证&lt;/strong>，选择最适合自己的就好。&lt;/p>
+&lt;p>我在这里选择的是&lt;strong>TXT验证&lt;/strong>，只需要在域名注册商处添加一个TXT解析即可。&lt;/p>
+&lt;p>下为验证成功后的提示。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-21.jpg!full"
+loading="lazy"
+alt="Pic21"
+>&lt;/p>
+&lt;p>默认模式是&lt;strong>回源模式&lt;/strong>，需要回到子域名管理处重新选择为&lt;strong>云端模式&lt;/strong>（自域名管理-&amp;gt;DNS修改-&amp;gt;云端模式）&lt;!-- raw HTML omitted -->。&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-22.jpg!full"
+loading="lazy"
+alt="Pic22"
+>&lt;/p>
+&lt;p>然后根据显示出的CNAME去DNS服务商处添加你的CNAME记录。&lt;/p>
+&lt;p>添加完后点击&lt;strong>检测&lt;/strong>，检测成功即为成功接入。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-23.jpg!full"
+loading="lazy"
+alt="Pic23"
+>&lt;/p>
+&lt;p>控制面板支持的功能如下，&lt;strong>没有图片优化&lt;/strong>。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-24.jpg!full"
+loading="lazy"
+alt="Pic24"
+>&lt;/p>
+&lt;p>&lt;strong>知道创宇加速乐主打的是安全加速功能，提供了其他服务商没有提供的三个防火墙。&lt;/strong>&lt;/p>
+&lt;p>下面测试全球延迟（官网没标注是否全球加速，我们可以正好来检测一下）&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-25.jpg!full"
+loading="lazy"
+alt="Pic25"
+>&lt;/p>
+&lt;p>很明显，&lt;strong>不支持全球加速&lt;/strong>，但是国内延迟有较大改善，但海外延迟&lt;strong>不降反升&lt;/strong>。&lt;/p>
+&lt;p>但加速乐的优点是&lt;strong>安全&lt;/strong>和&lt;strong>大流量&lt;/strong>。&lt;/p>
+&lt;h3 id="快云cdn景安网络httpsaczzidccomcasloginservicehttps3a2f2fmczzidccom2fkycdn2fkuaiyuncdnaction">&lt;a class="link" href="https://ac.zzidc.com/cas/login?service=https%3A%2F%2Fmc.zzidc.com%2Fkycdn%2FkuaiyunCdnAction" target="_blank" rel="noopener"
+>快云CDN（景安网络）&lt;/a>&lt;/h3>
+&lt;p>景安同样需要&lt;strong>实名认证&lt;/strong>之后才可以使用。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-26.jpg!full"
+loading="lazy"
+alt="Pic26"
+>&lt;/p>
+&lt;p>点击&lt;strong>添加网站&lt;/strong>，即可开始配置CDN。添加完主域名后，会提示你&lt;strong>在七天内完成解析，否则会被删除&lt;/strong>。&lt;/p>
+&lt;p>在&lt;strong>添加子域名&lt;/strong>中，进行对加速域名的添加，与上文中的百度云加速和加速乐添加类似。&lt;/p>
+&lt;p>添加完子域名后，根据显示出来的&lt;strong>别名&lt;/strong>去在DNS服务商处添加CNAME解析即可。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-27.jpg!full"
+loading="lazy"
+alt="Pic27"
+>&lt;/p>
+&lt;p>控制台仅支持&lt;strong>缓存刷新&lt;/strong>与&lt;strong>智能压缩&lt;/strong>，图片快速加载都需要&lt;strong>专业版&lt;/strong>支持，在这点上不如其他服务商，并且&lt;strong>不支持HTTPS&lt;/strong>。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-28.jpg!full"
+loading="lazy"
+alt="Pic28"
+>&lt;/p>
+&lt;p>下面来测试全球延迟，和加速乐一样，&lt;strong>没有写出是否支持全球加速&lt;/strong>。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-29.jpg!full"
+loading="lazy"
+alt="Pic29"
+>&lt;/p>
+&lt;p>检测出来了，支持海外加速，海外用的&lt;strong>Cloudflare服务器&lt;/strong>，在这点上和百度云加速一样，不得不说，Cloudflare的海外加速很稳。&lt;/p>
+&lt;p>至于国内加速的情况，只能说&lt;strong>加速效果一般&lt;/strong>。&lt;/p>
+&lt;h3 id="华为云cdn试用httpsactivityhuaweicloudcom2018nov-promotionindexhtmlfromusercmvzzg9u">&lt;a class="link" href="https://activity.huaweicloud.com/2018nov-promotion/index.html?fromuser=cmVzZG9u" target="_blank" rel="noopener"
+>华为云CDN（试用）&lt;/a>&lt;/h3>
+&lt;p>华为云的CDN是使用两个月，每个月&lt;strong>500GB加速流量&lt;/strong>，需要&lt;strong>实名认证&lt;/strong>，&lt;a class="link" href="https://activity.huaweicloud.com/2018nov-promotion/index.html?fromuser=cmVzZG9u" target="_blank" rel="noopener"
+>注册链接&lt;/a>。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-30.jpg!full"
+loading="lazy"
+alt="Pic30"
+>&lt;/p>
+&lt;p>实名认证支持三种认证方式，&lt;strong>银行卡认证&lt;/strong>和&lt;strong>APP人脸验证&lt;/strong>是实时的。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-31.jpg!full"
+loading="lazy"
+alt="Pic31"
+>&lt;/p>
+&lt;p>是以订单的形式完成这两个月的试用的，&lt;strong>不****支持全球加速&lt;/strong>（仅为国内流量包，需另购海外加速包），&lt;strong>支持HTTPS&lt;/strong>，可惜是试用两个月（购买大陆流量包目前的价格是50元/500GB/1年）。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-32.jpg!full"
+loading="lazy"
+alt="Pic32"
+>&lt;/p>
+&lt;p>点击&lt;strong>添加域名&lt;/strong>，完成对你域名的CDN加速。&lt;/p>
+&lt;p>填写完信息后确定，稍等片刻后会出现CNAME信息，到DNS服务商处添加CNAME解析。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-33.jpg!full"
+loading="lazy"
+alt="Pic33"
+>&lt;/p>
+&lt;p>毕竟还是个付费产品，该有的功能都有，还是挺齐全的。&lt;/p>
+&lt;p>接下来测试全球延迟。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-34.jpg!full"
+loading="lazy"
+alt="Pic34"
+>&lt;/p>
+&lt;p>国内延迟处于&lt;strong>比较优秀&lt;/strong>的水平，海外延迟就不用说了，自然崩了。&lt;/p>
+&lt;h3 id="360-cdnhttpswangzhanqianxincom无法使用">&lt;a class="link" href="https://wangzhan.qianxin.com/" target="_blank" rel="noopener"
+>360 CDN&lt;/a>（无法使用）&lt;/h3>
+&lt;p>360的CDN感觉选择是&lt;strong>处于半残废状态&lt;/strong>，也同样需要&lt;strong>实名认证&lt;/strong>。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-35.jpg!full"
+loading="lazy"
+alt="Pic35"
+>&lt;/p>
+&lt;p>在文本框中输入&lt;strong>主域名&lt;/strong>，选择CNAME接入，添加域名。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-36.jpg!full"
+loading="lazy"
+alt="Pic36"
+>&lt;/p>
+&lt;p>接着&lt;strong>添加子域名&lt;/strong>即可，选择云防护，过程和百度云加速类似。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-37.jpg!full"
+loading="lazy"
+alt="Pic37"
+>&lt;/p>
+&lt;p>将获得的CNAME添加到DNS服务商处的解析中即可加速生效。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-38.jpg!full"
+loading="lazy"
+alt="Pic38"
+>&lt;/p>
+&lt;p>CNAME解析已经生效了，但是360这边检测不出来，果然是残废的，无法使用。&lt;/p>
+&lt;p>下面的是之前解析成功时的延迟，惨不忍睹，除了列出的这几个，其余节点全部100%丢包。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-cdn-39.jpg!full"
+loading="lazy"
+alt="Pic39"
+>&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>除了360不能用了以外，将&lt;strong>其他6家服务商&lt;/strong>纳入其中进行对比。&lt;/p>
+&lt;p>&lt;strong>注册难易性：&lt;strong>各家都差不多，都需要&lt;/strong>实名认证&lt;/strong>+&lt;strong>网站备案&lt;/strong>，&lt;strong>又拍云&lt;/strong>要更为麻烦，要向官方提出申请，并&lt;strong>在网站上推广又拍云&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>管理****面板功能完整性：华为云&amp;gt;又拍云&amp;gt;七牛云=百度云&amp;gt;加速乐&amp;gt;快云&lt;/strong>&lt;/p>
+&lt;p>下面比较中，最前面的是最好。&lt;/p>
+&lt;p>&lt;strong>各地网络延迟（全球）：百度云&amp;gt;快云&amp;gt;七牛云&amp;gt;又拍云（前为支持全球）&amp;gt;华为云&amp;gt;加速乐&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>各地网络延迟（国内）：华为云&amp;gt;又拍云&amp;gt;七牛云&amp;gt;百度云&amp;gt;加速乐&amp;gt;快云&lt;/strong>&lt;/p>
+&lt;p>（按平均值算，且至经过IPIP.NET一次测试，不严谨）&lt;/p>
+&lt;p>&lt;strong>支持HTTPS的服务商：又拍云，华为云&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>支持全球加速的服务商：百度云，快云（基于Cloudflare）；又拍云，七牛云（自有）&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>综合推荐：又拍云&amp;gt;百度云&amp;gt;七牛云&amp;gt;快云&amp;gt;加速乐&amp;gt;华为云&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>（为个人想法，仅供参考；才疏学浅，如有错误，还请指正）&lt;/strong>&lt;/p>
+&lt;p>Last Update Time: 2018-11-16&lt;/p></description></item><item><title>在Wordpress中启用阿里云OSS作为媒体库</title><link>https://www.ratodo.com/article/aliyunoss-wordpress/</link><pubDate>Thu, 15 Nov 2018 10:39:00 +0800</pubDate><guid>https://www.ratodo.com/article/aliyunoss-wordpress/</guid><description>&lt;img src="https://u.ratodo.com/blog/2018/aliyunoss-wordpress-0.jpg!full" alt="Featured image of post 在Wordpress中启用阿里云OSS作为媒体库" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>很多人可能都有这种困扰，网站加载速度太慢，而导致加载速度慢的其中一个大原因就是图片加载。&lt;/p>
+&lt;p>很多站长为了不用在国内备案，选择把服务器放到国外的VPS上，但国外主机往往对国内的用户不太友好，导致用户体验较差。&lt;/p>
+&lt;p>为了改善这种情况，我们可以把Wordpress的媒体库迁移至阿里云OSS，来使用阿里云的加速服务。&lt;/p>
+&lt;p>&lt;strong>注意：阿里云OSS需付费使用，国内区目前9元/40GB/1年，流量费用另付，详见阿里云OSS官网。&lt;/strong>&lt;/p>
+&lt;h2 id="准备工具">准备工具&lt;/h2>
+&lt;p>阿里云账号及阿里云OSS Bucket，搭建好的Wordpress系统，阿里云Accesskey&lt;/p>
+&lt;p>下载好aliyun-oss插件，下载地址：&lt;a class="link" href="https://github.com/IvanChou/aliyun-oss-support/releases" target="_blank" rel="noopener"
+>Github&lt;/a>（开发者：IvanChou）&lt;/p>
+&lt;p>也可以在主导航处点击&lt;strong>资源分享&lt;/strong>下载。&lt;/p>
+&lt;h2 id="阿里云oss配置">阿里云OSS配置&lt;/h2>
+&lt;p>登陆OSS控制管理台，找到你创建好的Bucket，若还未创建，点击右上角的新建Bucket（&lt;strong>读写权限设为公有读，标准存储&lt;/strong>）。&lt;/p>
+&lt;p>在概览中你可以看到你的访问地址。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/aliyunoss-wordpress-1.jpg!full"
+loading="lazy"
+alt="Pic1"
+>&lt;/p>
+&lt;p>点击上方的文件管理，新建目录**/wp-content/uploads**（为了方便后续设置）&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/aliyunoss-wordpress-2.jpg!full"
+loading="lazy"
+alt="Pic2"
+>&lt;/p>
+&lt;p>选择上方的基础设置，拉到最下方设置&lt;strong>镜像回源&lt;/strong>。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/aliyunoss-wordpress-3.jpg!full"
+loading="lazy"
+alt="Pic3"
+>&lt;/p>
+&lt;p>&lt;strong>文件名前缀是wp-content/uploads/，回源地址是http(s)://你的网站。&lt;/strong>&lt;/p>
+&lt;p>接下来就可以进行插件的配置了。&lt;/p>
+&lt;h2 id="安装插件并配置">安装插件并配置&lt;/h2>
+&lt;p>在Wordpress管理界面选择插件-&amp;gt;安装插件-&amp;gt;上传插件，找到下载好的插件并进行安装启用。&lt;/p>
+&lt;p>在Setting-&amp;gt;阿里云 OSS中进行配置，如下图所示。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/aliyunoss-wordpress-4.jpg!full"
+loading="lazy"
+alt="Pic4"
+>&lt;/p>
+&lt;p>一切设置好后点击保存配置就大功告成啦。&lt;/p>
+&lt;h2 id="附加功能的设置">附加功能的设置&lt;/h2>
+&lt;h3 id="图片预设样式">图片预设样式&lt;/h3>
+&lt;p>点击右面的&lt;strong>下载样式配置文件&lt;/strong>，会跳出来新的窗口，是一个txt文件，可能不会自动下载，把网址粘贴到下载工具中下载下来。&lt;/p>
+&lt;p>然后回到&lt;strong>OSS管理控制台&lt;/strong>，选择&lt;strong>图片处理-&amp;gt;导入样式&lt;/strong>，选择下载的txt文件将其导入即可。&lt;/p>
+&lt;p>如果想要图片水印的话可以先上传水印文件到OSS存储空间，然后编辑&lt;strong>full规则&lt;/strong>，按下图提示配置。&lt;/p>
+&lt;p>（位置，大小，透明度看个人喜好，水印图路径为OSS的文件路径，可在文件管理中点击预览查询到&lt;!-- raw HTML omitted -->）&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/aliyunoss-wordpress-5.jpg!full"
+loading="lazy"
+alt="Pic5"
+>&lt;/p>
+&lt;h3 id="原图保护">原图保护&lt;/h3>
+&lt;p>在图片处理中，点击访问设置开启原图保护，按下图配置。&lt;/p>
+&lt;p>（**不建议勾选*且强烈建议将站点图标的格式转换为ico再上传设置，否则无法显示站点图标！**&lt;strong>下面有讲到解决办法&lt;/strong>）&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/aliyunoss-wordpress-6.jpg!full"
+loading="lazy"
+alt="Pic6"
+>&lt;/p>
+&lt;h3 id="高级选项">高级选项&lt;/h3>
+&lt;p>在插件设置最下方选择&lt;strong>更多选项&lt;/strong>，即可打开高级选项。&lt;/p>
+&lt;p>上面的站点图标因为开了原图显示而无法加载的解决办法如下：&lt;/p>
+&lt;p>将你要上传的站点图标更改名称，例如favicon，&lt;/p>
+&lt;p>再在&lt;strong>需要排除的文件&lt;/strong>这一选项中填入你更改后的名称，即可让图片不经过OSS直接加载。&lt;/p>
+&lt;p>如下图所示。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/aliyunoss-wordpress-7.jpg!full"
+loading="lazy"
+alt="Pic7"
+>&lt;/p>
+&lt;p>&lt;strong>注意：这样操作会导致所有带有favicon的图片全部绕过OSS直接加载，建议选择一个不常用到的名称。&lt;/strong>&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>配置工作到此就完成了，如果在大陆有备案并且有需要的朋友还可以开启CDN加速，在域名管理中即可设置。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/aliyunoss-wordpress-8.jpg!full"
+loading="lazy"
+alt="Pic8"
+>&lt;/p>
+&lt;p>用上了阿里云全家桶，感觉支付宝空空的。&lt;/p></description></item><item><title>关于国内外那些免费SSL证书</title><link>https://www.ratodo.com/article/free-ssl/</link><pubDate>Thu, 01 Nov 2018 00:29:00 +0800</pubDate><guid>https://www.ratodo.com/article/free-ssl/</guid><description>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-0.jpg!full" alt="Featured image of post 关于国内外那些免费SSL证书" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>现在免费证书有很多选择，但主要可以分为四大类，国内云服务厂商免费证书，国外证书品牌免费体验，Cloudflare免费证书以及Let&amp;rsquo;s Encrypt免费证书。&lt;/p>
+&lt;p>下面大概介绍一下四种证书的类型，申请方式以及证书的部署。&lt;/p>
+&lt;h2 id="国内云厂商免费证书">国内云厂商免费证书&lt;/h2>
+&lt;p>在云计算的大趋势下，国内三巨头BAT均推出了自家的云服务系统，SSL证书也包含在内，阿里云，百度云，腾讯云均推出了为其一年的免费证书。&lt;/p>
+&lt;h3 id="trustocean">TrustOcean&lt;/h3>
+&lt;p>（2020.2.16更新）经评论区pinwen大佬提醒，申请入口被转移到了TrustOcean首页，&lt;a class="link" href="https://console.trustocean.com/certificate/create/85" target="_blank" rel="noopener"
+>传送门在此&lt;/a>，登陆账号后直接点击左侧链接即可创建订单。&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.trustocean.com" target="_blank" rel="noopener"
+>Trustocean官网&lt;/a>，下图为免费SSL的申请入口。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-1.png!full"
+loading="lazy"
+alt="Pic1"
+>&lt;/p>
+&lt;p>创建订单界面如下，可选1月或3月有效期，支持同时下单100本，最高&lt;strong>支持100条域名&lt;/strong>，比之前250条少，但也绝对够用。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-2.png!full"
+loading="lazy"
+alt="Pic2"
+>&lt;/p>
+&lt;p>（2020.2.12更新）目前此款证书官网未发现申请入口，可能已经不再支持申请。&lt;/p>
+&lt;p>（11.5更新）最近发现一个还不错的DV证书，一个证书最高支持保护&lt;strong>250&lt;/strong>个域名**（划重点：包含泛域名！！！）**，简直就是拥有多个域名朋友的福音啊！&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-3.png!full"
+loading="lazy"
+alt="Pic3"
+>&lt;/p>
+&lt;p>看了一下提供方是TrustOcean，根证书是由COMODO（USERTrust）提供，有效期三个月，目前还不知道可不可以自动续期，这个SSL也是他们最近才开始做的项目，&lt;strong>自动化申请时间可能较长，可发工单申请加速处理&lt;/strong>。官方已优化好，申请过程很流畅。&lt;/p>
+&lt;p>申请地址：&lt;a class="link" href="https://console.trustocean.com/cart.php" target="_blank" rel="noopener"
+>环洋诚信™-雁雀云服务&lt;/a>&lt;/p>
+&lt;h3 id="阿里云httpscommon-buyaliyuncomspm51767968328112076013a8e1232tnrm7lampcommoditycodecasbuy">&lt;a class="link" href="https://common-buy.aliyun.com/?spm=5176.7968328.1120760.1.3a8e1232TNRm7l&amp;amp;amp;commodityCode=cas#/buy" target="_blank" rel="noopener"
+>阿里云&lt;/a>&lt;/h3>
+&lt;p>进入阿里云管理控制台，点击左侧的域名，即可找到SSL证书管理控制台，选择购买证书。&lt;/p>
+&lt;p>先点击Symantec，再点击增强型OV SSL，你就会发现多出来一个免费版DV SSL。&lt;/p>
+&lt;p>如果你使用的是阿里云的云解析，就可以实现一键DNS验证，无需其它繁琐的步骤。&lt;/p>
+&lt;p>下图即为申请成功的SSL证书。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-4.png!full"
+loading="lazy"
+alt="Pic4"
+>&lt;/p>
+&lt;p>通过下载下来的证书我们可以看见证书的颁发者为Encryption Everywhere。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-5.png!full"
+loading="lazy"
+alt="Pic5"
+>&lt;/p>
+&lt;h3 id="百度云httpsloginbcebaiducomaccountampredirecthttp3a2f2fconsolebcebaiducom2fcas2f3f_3d1542123500103casapplycreate">&lt;a class="link" href="https://login.bce.baidu.com/?account=&amp;amp;amp;redirect=http%3A%2F%2Fconsole.bce.baidu.com%2Fcas%2F%3F_%3D1542123500103#/cas/apply/create" target="_blank" rel="noopener"
+>百度云&lt;/a>&lt;/h3>
+&lt;p>和阿里云一样，百度云提供的一年期SSL证书也是标称来自Symantec。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-6.png!full"
+loading="lazy"
+alt="Pic6"
+>&lt;/p>
+&lt;p>购买成功后，百度云提供了DNS验证和文件验证两种方式，鉴于DNS验证需要等待一段时间，我选择了较为简单快捷的文件验证。&lt;/p>
+&lt;p>文件部署好后百度云会自动检测，检测完成后即下发证书。&lt;/p>
+&lt;p>此处提示，点击下载证书的时候，如果你用的是Chrome，就会被截拦弹出窗口，请主动放行。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-7.png!full"
+loading="lazy"
+alt="Pic7"
+>&lt;/p>
+&lt;p>下载完成后查看颁发者信息，可看出颁发者为TrustAsia。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-8.png!full"
+loading="lazy"
+alt="Pic8"
+>&lt;/p>
+&lt;h3 id="腾讯云httpsbuycloudtencentcomsslfromsourcesslampfromqcloudhpheaderssl">&lt;a class="link" href="https://buy.cloud.tencent.com/ssl?fromSource=ssl&amp;amp;amp;from=qcloudHpHeaderSsl" target="_blank" rel="noopener"
+>腾讯云&lt;/a>&lt;/h3>
+&lt;p>腾讯云直接标注了证书由TrustAsia颁发，使用Symantec根证书。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-9.png!full"
+loading="lazy"
+alt="Pic9"
+>&lt;/p>
+&lt;p>过程都是大同小异，就不多说了。&lt;/p>
+&lt;p>不用多说，颁发者为TrustAsia。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-10.png!full"
+loading="lazy"
+alt="Pic10"
+>&lt;/p>
+&lt;h3 id="七牛云httpsportalqiniucomsigninredirect2fcertificate2fapply">&lt;a class="link" href="https://portal.qiniu.com/signin?redirect=~2Fcertificate~2Fapply" target="_blank" rel="noopener"
+>七牛云&lt;/a>&lt;/h3>
+&lt;p>七牛云的免费SSL证书申请也是一种渠道，颁发者同样为TrustAsia，在此就不多说。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-11.png!full"
+loading="lazy"
+alt="Pic11"
+>&lt;/p>
+&lt;h2 id="国外证书品牌免费体验">国外证书品牌免费体验&lt;/h2>
+&lt;p>国外的许多证书品牌会提供免费体验的DV证书，时长在一个月到三个月不等，这类证书在我看来没有什么申请的必要，因为时间太短，**并且！多数无法申请第二次！**但可能有人会想要查看各个品牌的差异，所以我在下面列举了几个证书品牌的免费体验证书申请地址。&lt;/p>
+&lt;h3 id="comodo三个月体验">COMODO （三个月体验）&lt;/h3>
+&lt;p>如果是特别喜欢COMODO这个品牌的话，这个证书也还是有申请的必要的，毕竟COMODO也是个知名老品牌。&lt;/p>
+&lt;p>可以通过&lt;a class="link" href="https://www.comodo.com/landing/ssl-certificate/free-ssl/" target="_blank" rel="noopener"
+>COMODO官网&lt;/a>申请。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-12.png!full"
+loading="lazy"
+alt="Pic12"
+>&lt;/p>
+&lt;h3 id="sslcom-三个月体验">SSL.com （三个月体验）&lt;/h3>
+&lt;p>这个品牌我没有去尝试，但是也提供了三个月的免费体验，感兴趣的话可以去SSL.com官网尝试一下。&lt;/p>
+&lt;p>强烈不建议这个证书，兼容性极差，Win10无法查看证书信息。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-13.png!full"
+loading="lazy"
+alt="Pic13"
+>&lt;/p>
+&lt;h3 id="geotrust-一个月体验">GeoTrust （一个月体验）&lt;/h3>
+&lt;p>这个我感觉实在是没有什么必要，虽然GeoTrust的品牌很响，&lt;a class="link" href="https://www.geotrust.com/ssl/free-ssl-certificate/" target="_blank" rel="noopener"
+>GeoTrust官网&lt;/a>申请。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-14.png!full"
+loading="lazy"
+alt="Pic14"
+>&lt;/p>
+&lt;h3 id="rapidssl-一个月体验">RapidSSL （一个月体验）&lt;/h3>
+&lt;p>这个品牌的根证书是DigiCert，颁发者是RapidSSL RSA CA 2018，&lt;a class="link" href="https://www.rapidssl.com/" target="_blank" rel="noopener"
+>RapidSSL官网申请&lt;/a>。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-15.png!full"
+loading="lazy"
+alt="Pic15"
+>&lt;/p>
+&lt;h2 id="cloudflare免费证书">Cloudflare免费证书&lt;/h2>
+&lt;p>Cloudflare免费证书是通过使用Cloudflare的免费全球加速来实现的。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-16.png!full"
+loading="lazy"
+alt="Pic16"
+>&lt;/p>
+&lt;h2 id="lets-encrypt免费证书">Let&amp;rsquo;s Encrypt免费证书&lt;/h2>
+&lt;p>接下来介绍的这个是目前最受欢迎的免费证书Let&amp;rsquo;s Encrypt，尤其是它在V2版本还提供了通配符域名的支持。&lt;/p>
+&lt;p>Let&amp;rsquo;s Encrypt旨在于推动HTTPS的发展，由互联网安全研究小组缩写ISRG）提供服务。主要赞助商包括Linux基金会、电子前哨基金会、Mozilla基金会、Akamai以及思科。&lt;/p>
+&lt;p>目前Let&amp;rsquo;s Encrypt有多种申请方式，比如服务端创建，网站一键化创建。&lt;/p>
+&lt;p>服务器创建并自动续期参考链接：&lt;a class="link" href="https://www.laozuo.org/11668.html" target="_blank" rel="noopener"
+>老左博客&lt;/a>&lt;/p>
+&lt;p>网站一键化创建：推荐使用&lt;a class="link" href="https://freessl.cn/" target="_blank" rel="noopener"
+>FreeSSL&lt;/a>来创建。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-17.png!full"
+loading="lazy"
+alt="Pic17"
+>&lt;/p>
+&lt;p>创建过程中的CSR文件可以使用选择自动生成或者使用已有CSR。&lt;/p>
+&lt;p>Let&amp;rsquo;s Encrypt有效期三个月，到期需手动续期或者在服务端设置程序实现自动续期。&lt;/p>
+&lt;p>证书申请成功后可以发现颁发者为Let&amp;rsquo;s Encrypt Authority X3。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-18.png!full"
+loading="lazy"
+alt="Pic18"
+>&lt;/p>
+&lt;h2 id="证书部署">证书部署&lt;/h2>
+&lt;p>目前市面上有很多免费的Linux管理面板，其中推荐使用&lt;a class="link" href="https://www.bt.cn/?btwaf=96081394" target="_blank" rel="noopener"
+>宝塔管理面板&lt;/a>。&lt;/p>
+&lt;p>在宝塔管理面板中进入网站设置，选择SSL即可快速部署证书。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/free-ssl-19.png!full"
+loading="lazy"
+alt="Pic19"
+>&lt;/p>
+&lt;p>不想安装面板的话也可以，不过会稍微麻烦一点，上传证书文件，修改配置文件，相关步骤也可以在网站上搜索到，就请自行搜索查看吧。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>当今互联网环境下使用HTTPS来加密连接已经是大趋势，各种免费SSL也五花八门，不过它们的本质也都是一样。&lt;/p>
+&lt;p>这些免费SSL对于流量不多的小网站来讲是非常实用的，但是对于一些流量不小的网站来讲还是建议买一个收费的SSL来保护你的网站以及你的访问者。&lt;/p></description></item><item><title>网站备案日记</title><link>https://www.ratodo.com/article/icp-beian/</link><pubDate>Thu, 25 Oct 2018 22:54:00 +0800</pubDate><guid>https://www.ratodo.com/article/icp-beian/</guid><description>&lt;img src="https://u.ratodo.com/blog/2018/icp-beian-0.jpg!full" alt="Featured image of post 网站备案日记" />&lt;h2 id="20181025">2018.10.25&lt;/h2>
+&lt;h3 id="准备初审">准备初审&lt;/h3>
+&lt;p>&lt;a class="link" href="https://beian.aliyun.com/" target="_blank" rel="noopener"
+>阿里云备案网址&lt;/a>&lt;/p>
+&lt;p>在阿里云续费了三个月的ECS云服务器后，就正式开始域名的备案工作了，在填写了基本资料和上传了三份必要的文件后，备案进入等待初审阶段。&lt;/p>
+&lt;p>三份必要的文件：核验单，身份证正反照片，域名证书。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/icp-beian-1.png!full"
+loading="lazy"
+alt="Pic1"
+>&lt;/p>
+&lt;p>（2:27更新）&lt;/p>
+&lt;p>用阿里云的ECS好像只是80端口需要备案，我这全站HTTPS好像可以直接访问…备案好像不是很必要。但已经开始了就做下去吧，等初审通过。&lt;/p>
+&lt;p>（12:47更新）&lt;/p>
+&lt;p>早上九点钟接到了阿里云打来的的电话，确认了基本信息后，初审通过。&lt;/p>
+&lt;p>这里有点小问题，核验单一开始我是在电脑上签名的，并没有打印，阿里云的工作人员提醒我说一定要去打印出来亲笔签名后拍照上传才可以，在这之后我就补发了图片到他提供的邮箱里，这就进行到下一步了。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/icp-beian-2.png!full"
+loading="lazy"
+alt="Pic2"
+>&lt;/p>
+&lt;h3 id="申请幕布和拍照">申请幕布和拍照&lt;/h3>
+&lt;p>在阿里云可以直接免费申请邮寄幕布，等待快递到货即可拍照上传。&lt;/p>
+&lt;p>（浏览器在我提交的时候清空了我填写的街道信息，现在已联系阿里云客服请求修改）&lt;/p>
+&lt;p>（16:16更新）&lt;/p>
+&lt;p>因为我在上课的原因，阿里云打了我三次电话我也没能接到，所以第一次幕布申请直接失败，但是由于这种原因可以再次申请。第二次没出现什么问题，直接收到了申请成功的通知。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/icp-beian-3.png!full"
+loading="lazy"
+alt="Pic3"
+>&lt;/p>
+&lt;p>（18:15更新）&lt;/p>
+&lt;p>收到了阿里云的快递单号通知，接下来就是坐等快递到来了，乐观估计快递明天就可以到。&lt;/p>
+&lt;h2 id="20181026">2018.10.26&lt;/h2>
+&lt;p>（11:20更新）&lt;/p>
+&lt;p>收到了快递中心发来的短信，下午上完课再去拿。&lt;/p>
+&lt;p>（16:10更新）&lt;/p>
+&lt;p>拿到了快递，请朋友帮忙拍了照片，官方的要求有三点：&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/icp-beian-4.png!full"
+loading="lazy"
+alt="Pic4"
+>&lt;/p>
+&lt;p>按照官方的要求拍了照片，上传成功后等待审核。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/icp-beian-5.png!full"
+loading="lazy"
+alt="Pic5"
+>&lt;/p>
+&lt;h3 id="提交管局审核">提交管局审核&lt;/h3>
+&lt;p>（17:02更新）&lt;/p>
+&lt;p>阿里云审核已完成，接下来就是提交到通信管理局等待认证，不过，居然预计要16天？？？&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/icp-beian-6.png!full"
+loading="lazy"
+alt="Pic6"
+>&lt;/p>
+&lt;h2 id="2018112">2018.11.2&lt;/h2>
+&lt;p>（17:30更新）&lt;/p>
+&lt;p>已经七天过去了，还是没有任何消息，再等等看吧。&lt;/p>
+&lt;h2 id="2018116">2018.11.6&lt;/h2>
+&lt;p>（21:12更新）终于！通过备案了！&lt;/p>
+&lt;p>下午4:50收到工信部发来的电话和邮件，晚上6:30信息同步完成。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/icp-beian-7.jpg!full"
+loading="lazy"
+alt="Pic7"
+>&lt;/p>
+&lt;p>前后历时13天，完成了ICP备案。由于是首次备案，阿里云给我的ECS服务器续了13天，也就是备案的时长，这点还是不错的。&lt;/p>
+&lt;p>接下来去申请公安备案。&lt;/p>
+&lt;p>（22:40更新）公安备案申请已提交，等待审核。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/icp-beian-8.jpg!full"
+loading="lazy"
+alt="Pic8"
+>&lt;/p>
+&lt;h2 id="2018119">2018.11.9&lt;/h2>
+&lt;p>（17:52更新）下午偶然上网搜了一下，发现有人说学生不要用自己的学校地址申请，否则会不通过。所以我就立马去更改了备案信息，果然，只等了两个多小时就审核通过了。&lt;/p>
+&lt;p>到了官网就是部署图标和备案号了，正如下图所示。&lt;/p>
+&lt;p>&lt;img src="https://u.ratodo.com/blog/2018/icp-beian-9.jpg!full"
+loading="lazy"
+alt="Pic9"
+>&lt;/p>
+&lt;p>现在，本站已经通过了ICP备案和公安备案。&lt;/p>
+&lt;p>这件事到此就算完成了。&lt;/p></description></item><item><title>搜索</title><link>https://www.ratodo.com/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ratodo.com/search/</guid><description/></item><item><title>友情链接</title><link>https://www.ratodo.com/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ratodo.com/links/</guid><description>&lt;p>交换友链可以在该页面下留言，也可以发送邮件至&lt;a class="link" href="mailto:i@ratodo.com" >i@ratodo.com&lt;/a>，看到后会及时处理的，友链的目的是交朋友，希望我们都能长期互访互动。&lt;/p>
+&lt;p>虽然只是个小破站，但还是希望您能满足以下几点：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>非免费域名，支持 HTTPS 访问。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>博客类网站，原则上不接受资源站，商业站等。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>不含色情、暴力、政治敏感内容，遵守大陆相关法律法规。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>运行时间超 30 天 ，并且能够提供接近对等的友链展示页。&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

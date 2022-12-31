@@ -4,7 +4,7 @@ description: 博客系统从WordPress更改为Hugo静态页面，目前仍在逐
 author: Ratodo
 date: 2022-07-17 01:23:00 +0800
 slug: hugo-first-article
-image: jess-bailey-q10VITrVYUM-unsplash.jpg
+image: https://u.ratodo.com/blog/2022/first-article-0.jpg!full
 categories:
     - 建站笔记
 ---

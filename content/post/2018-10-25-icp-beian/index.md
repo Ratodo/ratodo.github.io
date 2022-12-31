@@ -5,8 +5,8 @@ author: Ratodo
 comments: true
 categories:
     - 建站笔记
-plug: icp-beian
-image: https://u.ratdo.com/blog/2018/icp-beian-0.jpg
+slug: icp-beian
+image: https://u.ratodo.com/blog/2018/icp-beian-0.jpg!full
 ---
 
 ## 2018.10.25
@@ -19,7 +19,7 @@ image: https://u.ratdo.com/blog/2018/icp-beian-0.jpg
 
 三份必要的文件：核验单，身份证正反照片，域名证书。
 
-![Pic1](https://u.ratodo.com/blog/2018/icp-beian-1.png)
+![Pic1](https://u.ratodo.com/blog/2018/icp-beian-1.png!full)
 
 （2:27更新）
 
@@ -31,7 +31,7 @@ image: https://u.ratdo.com/blog/2018/icp-beian-0.jpg
 
 这里有点小问题，核验单一开始我是在电脑上签名的，并没有打印，阿里云的工作人员提醒我说一定要去打印出来亲笔签名后拍照上传才可以，在这之后我就补发了图片到他提供的邮箱里，这就进行到下一步了。
 
-![Pic2](https://u.ratodo.com/blog/2018/icp-beian-2.png)
+![Pic2](https://u.ratodo.com/blog/2018/icp-beian-2.png!full)
 
 ### 申请幕布和拍照
 
@@ -43,7 +43,7 @@ image: https://u.ratdo.com/blog/2018/icp-beian-0.jpg
 
 因为我在上课的原因，阿里云打了我三次电话我也没能接到，所以第一次幕布申请直接失败，但是由于这种原因可以再次申请。第二次没出现什么问题，直接收到了申请成功的通知。
 
-![Pic3](https://u.ratodo.com/blog/2018/icp-beian-3.png)
+![Pic3](https://u.ratodo.com/blog/2018/icp-beian-3.png!full)
 
 （18:15更新）
 
@@ -58,18 +58,18 @@ image: https://u.ratdo.com/blog/2018/icp-beian-0.jpg
 
 拿到了快递，请朋友帮忙拍了照片，官方的要求有三点：
 
-![Pic4](https://u.ratodo.com/blog/2018/icp-beian-4.png)
+![Pic4](https://u.ratodo.com/blog/2018/icp-beian-4.png!full)
 
 按照官方的要求拍了照片，上传成功后等待审核。
 
-![Pic5](https://u.ratodo.com/blog/2018/icp-beian-5.png)
+![Pic5](https://u.ratodo.com/blog/2018/icp-beian-5.png!full)
 
 ### 提交管局审核
 （17:02更新）
 
 阿里云审核已完成，接下来就是提交到通信管理局等待认证，不过，居然预计要16天？？？
 
-![Pic6](https://u.ratodo.com/blog/2018/icp-beian-6.png)
+![Pic6](https://u.ratodo.com/blog/2018/icp-beian-6.png!full)
 
 ## 2018.11.2
 （17:30更新）
@@ -82,7 +82,7 @@ image: https://u.ratdo.com/blog/2018/icp-beian-0.jpg
 
 下午4:50收到工信部发来的电话和邮件，晚上6:30信息同步完成。
 
-![Pic7](https://u.ratodo.com/blog/2018/icp-beian-7.png)
+![Pic7](https://u.ratodo.com/blog/2018/icp-beian-7.jpg!full)
 
 前后历时13天，完成了ICP备案。由于是首次备案，阿里云给我的ECS服务器续了13天，也就是备案的时长，这点还是不错的。
 
@@ -90,7 +90,7 @@ image: https://u.ratdo.com/blog/2018/icp-beian-0.jpg
 
 （22:40更新）公安备案申请已提交，等待审核。
 
-![Pic8](https://u.ratodo.com/blog/2018/icp-beian-8.png)
+![Pic8](https://u.ratodo.com/blog/2018/icp-beian-8.jpg!full)
 
 ## 2018.11.9
 
@@ -98,7 +98,7 @@ image: https://u.ratdo.com/blog/2018/icp-beian-0.jpg
 
 到了官网就是部署图标和备案号了，正如下图所示。
 
-![Pic9](https://u.ratodo.com/blog/2018/icp-beian-9.png)
+![Pic9](https://u.ratodo.com/blog/2018/icp-beian-9.jpg!full)
 
 现在，本站已经通过了ICP备案和公安备案。
 

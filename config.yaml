@@ -44,7 +44,7 @@ params:
 
     footer:
         since: 2018
-        customText: 
+        customText: <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备18060628号</a>&nbsp;|&nbsp;<a href="https://icp.gov.moe/?keyword=20221222" target="_blank">萌ICP备20221222号</a><div /><span>本网站由&nbsp;</span><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" rel="nofollow"><img src="https://u.ratodo.com/blog/src/upyun-1.png" style="height:0.9em" vertical-align="middle" alt="又拍云联盟" title="又拍云联盟"><img src="https://u.ratodo.com/blog/src/upyun-2.png" style="height:0.9em" vertical-align="middle" alt="又拍云联盟" title="又拍云联盟"></a><span>&nbsp;提供CDN加速/云存储服务</span>
 
     dateFormat:
         published: Jan 02, 2006

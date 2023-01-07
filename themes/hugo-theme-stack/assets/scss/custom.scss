@@ -1,1 +1,33 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+
+@font-face {
+    font-family: 'AdobeCleanHanSC';
+    src: url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AdobeCleanHanSC/AdobeCleanHanSC.eot');
+    src:
+    url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AdobeCleanHanSC/AdobeCleanHanSC.eot') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AdobeCleanHanSC/AdobeCleanHanSC.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AdobeCleanHanSC/AdobeCleanHanSC.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AdobeCleanHanSC/AdobeCleanHanSC.ttf') format('truetype'),
+    url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/AdobeCleanHanSC/AdobeCleanHanSC.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    }
+@font-face {
+    font-family: 'Roadgeek';
+    src: url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/Roadgeek/Roadgeek.eot');
+    src:
+    url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/Roadgeek/Roadgeek.eot') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/Roadgeek/Roadgeek.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/Roadgeek/Roadgeek.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/Roadgeek/Roadgeek.ttf') format('truetype'),
+    url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/Roadgeek/Roadgeek.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    }
+
+*:not([class*="icon"]):not(i) {
+    font-family: "Roadgeek","AdobeCleanHanSC" !important;
+}
+    

@@ -40,7 +40,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: /favicon.ico
+    favicon: https://u.ratodo.com/blog/src/favicon.ico
 
     footer:
         since: 2018

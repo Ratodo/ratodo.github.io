@@ -200,7 +200,7 @@ menu:
 
         - identifier: telegram
           name: Telegram
-          url: https://telegram.com/ratodo
+          url: https://t.me/ratodo
           params:
               icon: brand-telegram
         
